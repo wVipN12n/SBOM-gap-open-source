@@ -1,0 +1,886 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:52f032cb-3b40-4248-9df8-999ced16e32a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-11T00:12:30.955Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "author": "Django Software Foundation <foundation@djangoproject.com>",
+      "group": "",
+      "name": "django",
+      "version": "5.0.1",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f47a37a90b9bbe2c8ec360235192c7fddfdc832206fcf618bb849b39256affc1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/django@5.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.djangoproject.com/"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django@5.0.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: django"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "django.contrib.auth.get_user_model,django.urls.reverse,django.views.decorators.csrf.csrf_exempt,django.conf.settings,django.core.urlresolvers.reverse,django.utils.decorators.method_decorator,django.http.HttpRequest,django.core.management.base.BaseCommand,django.conf.urls.url,django.contrib.auth.models.User,django.core.management.base.CommandError,django.urls.re_path,django.conf.urls.include"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "alauda-django-oauth",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/alauda-django-oauth@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/alauda-django-oauth@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module alauda-django-oauth"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "oauth2_provider.models.Application,oauth2_provider.generators.generate_client_secret,oauth2_provider.oauth2_backends.OAuthLibCore,oauth2_provider.views.mixins.OAuthLibMixin,oauth2_provider.views.AuthorizationView,oauth2_provider.generators.generate_client_id,oauth2_provider.contrib.rest_framework.OAuth2Authentication,oauth2_provider.settings.oauth2_settings,oauth2_provider.models.AccessToken"
+        }
+      ]
+    },
+    {
+      "author": "The OAuthlib Community <idan@gazit.me>",
+      "group": "",
+      "name": "oauthlib",
+      "version": "3.2.2",
+      "description": "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "OSI Approved"
+          }
+        },
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/oauthlib@3.2.2",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/oauthlib/oauthlib"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/oauthlib@3.2.2",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: oauthlib"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "oauthlib.oauth2.rfc6749.tokens.BearerToken,oauthlib.oauth2.rfc6749.endpoints.token.TokenEndpoint,oauthlib.oauth2.rfc6749.grant_types.refresh_token.RefreshTokenGrant,oauthlib.oauth2.rfc6749.endpoints.base.catch_errors_and_unavailability,oauthlib.oauth2.rfc6749.errors,oauthlib.common.Request"
+        }
+      ]
+    },
+    {
+      "author": "Tom Christie <tom@tomchristie.com>",
+      "group": "",
+      "name": "djangorestframework",
+      "version": "3.14.0",
+      "description": "Web APIs for Django, made easy.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eb63f58c9f218e1a7d064d17a70751f528ed4e1d35547fdade9aaf4cd103fd08"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/djangorestframework@3.14.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.django-rest-framework.org/"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/djangorestframework@3.14.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: djangorestframework"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "rest_framework.decorators.authentication_classes,rest_framework.authentication.BaseAuthentication,rest_framework.authentication.get_authorization_header,rest_framework.decorators.api_view,rest_framework.decorators.permission_classes,rest_framework.status,rest_framework.response.Response,rest_framework.exceptions,rest_framework.HTTP_HEADER_ENCODING,rest_framework.permissions,rest_framework.views.APIView"
+        }
+      ]
+    },
+    {
+      "author": "Matias Aguirre <matiasaguirre@gmail.com>",
+      "group": "",
+      "name": "social-auth-core",
+      "version": "4.5.1",
+      "description": "Python social authentication made simple.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "54d0c598bf6ea0ec12bbcf78bee035c7cd604b5d781d80b7997e9e033c3ac05d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/social-auth-core@4.5.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/python-social-auth/social-core"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/social-auth-core@4.5.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: social-auth-core"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "social_core.exceptions.SocialAuthBaseException,social_core.backends.oauth.BaseOAuth2,social_core.utils.requests,social_core.exceptions.MissingBackend"
+        }
+      ]
+    },
+    {
+      "author": "Matias Aguirre <matiasaguirre@gmail.com>",
+      "group": "",
+      "name": "social-auth-app-django",
+      "version": "5.4.0",
+      "description": "Python Social Authentication, Django integration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "28c65b2e2092f30cdb3cf912eeaa6988b49fdf4001b29bd89e683673d700a38e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/social-auth-app-django@5.4.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/python-social-auth/social-app-django"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/social-auth-app-django@5.4.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: social-auth-app-django"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "social_django.views.NAMESPACE,social_django.utils.load_backend,social_django.utils.load_strategy"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "typing-extensions",
+      "version": "4.9.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/typing-extensions@4.9.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-fi0Sau"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "jwcrypto",
+      "version": "1.5.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/jwcrypto@1.5.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jwcrypto@1.5.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-fi0Sau"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "cryptography",
+      "version": "41.0.7",
+      "scope": "optional",
+      "purl": "pkg:pypi/cryptography@41.0.7",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cryptography@41.0.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cffi",
+      "version": "1.16.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/cffi@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cffi@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pycparser",
+      "version": "2.21",
+      "scope": "optional",
+      "purl": "pkg:pypi/pycparser@2.21",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycparser@2.21",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "Deprecated",
+      "version": "1.2.14",
+      "scope": "optional",
+      "purl": "pkg:pypi/deprecated@1.2.14",
+      "type": "library",
+      "bom-ref": "pkg:pypi/deprecated@1.2.14",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "wrapt",
+      "version": "1.16.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/wrapt@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/wrapt@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "django-rest-framework-social-oauth2",
+      "version": "1.0.8",
+      "scope": "optional",
+      "purl": "pkg:pypi/django-rest-framework-social-oauth2@1.0.8",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django-rest-framework-social-oauth2@1.0.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-fi0Sau"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "pytz",
+      "version": "2023.3.post1",
+      "scope": "optional",
+      "purl": "pkg:pypi/pytz@2023.3.post1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytz@2023.3.post1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "Django",
+      "version": "4.2.9",
+      "scope": "optional",
+      "purl": "pkg:pypi/django@4.2.9",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django@4.2.9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sqlparse",
+      "version": "0.4.4",
+      "scope": "optional",
+      "purl": "pkg:pypi/sqlparse@0.4.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlparse@0.4.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "asgiref",
+      "version": "3.7.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/asgiref@3.7.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/asgiref@3.7.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "django-oauth-toolkit",
+      "version": "2.3.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/django-oauth-toolkit@2.3.0",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django-oauth-toolkit@2.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "requests",
+      "version": "2.31.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "requests-oauthlib",
+      "version": "1.3.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/requests-oauthlib@1.3.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests-oauthlib@1.3.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/django@5.0.1",
+        "pkg:pypi/alauda-django-oauth@latest",
+        "pkg:pypi/oauthlib@3.2.2",
+        "pkg:pypi/djangorestframework@3.14.0",
+        "pkg:pypi/social-auth-core@4.5.1",
+        "pkg:pypi/social-auth-app-django@5.4.0",
+        "pkg:pypi/typing-extensions@4.9.0",
+        "pkg:pypi/jwcrypto@1.5.1",
+        "pkg:pypi/django-rest-framework-social-oauth2@1.0.8"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django@5.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/alauda-django-oauth@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/oauthlib@3.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/djangorestframework@3.14.0",
+      "dependsOn": [
+        "pkg:pypi/django@4.2.9",
+        "pkg:pypi/pytz@2023.3.post1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/social-auth-core@4.5.1",
+      "dependsOn": [
+        "pkg:pypi/requests-oauthlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/social-auth-app-django@5.4.0",
+      "dependsOn": [
+        "pkg:pypi/django@4.2.9",
+        "pkg:pypi/social-auth-core@4.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cryptography@41.0.7",
+      "dependsOn": [
+        "pkg:pypi/cffi@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cffi@1.16.0",
+      "dependsOn": [
+        "pkg:pypi/pycparser@2.21"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pycparser@2.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/deprecated@1.2.14",
+      "dependsOn": [
+        "pkg:pypi/wrapt@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/wrapt@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jwcrypto@1.5.1",
+      "dependsOn": [
+        "pkg:pypi/cryptography@41.0.7",
+        "pkg:pypi/deprecated@1.2.14"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytz@2023.3.post1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@4.2.9",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.7.2",
+        "pkg:pypi/sqlparse@0.4.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sqlparse@0.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/asgiref@3.7.2",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-oauth-toolkit@2.3.0",
+      "dependsOn": [
+        "pkg:pypi/django@4.2.9",
+        "pkg:pypi/jwcrypto@1.5.1",
+        "pkg:pypi/oauthlib@3.2.2",
+        "pkg:pypi/requests@2.31.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/requests@2.31.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests-oauthlib@1.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-rest-framework-social-oauth2@1.0.8",
+      "dependsOn": [
+        "pkg:pypi/django-oauth-toolkit@2.3.0",
+        "pkg:pypi/djangorestframework@3.14.0",
+        "pkg:pypi/social-auth-app-django@5.4.0"
+      ]
+    }
+  ]
+}

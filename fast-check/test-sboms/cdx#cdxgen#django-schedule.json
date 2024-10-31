@@ -1,0 +1,473 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:60882c90-955e-4a1d-9f74-8fc92f341b81",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-11T05:13:53.990Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "author": "Gustavo Niemeyer <gustavo@niemeyer.net>",
+      "group": "",
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "description": "Extensions to the standard Python datetime module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "name": "Dual License"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/python-dateutil@2.8.2",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/dateutil/dateutil"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dateutil@2.8.2",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: python-dateutil"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "dateutil.rrule"
+        }
+      ]
+    },
+    {
+      "author": "Django Software Foundation <foundation@djangoproject.com>",
+      "group": "",
+      "name": "django",
+      "version": "5.0.1",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f47a37a90b9bbe2c8ec360235192c7fddfdc832206fcf618bb849b39256affc1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/django@5.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.djangoproject.com/"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django@5.0.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: django"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "django.utils.translation.ugettext,django.shortcuts.get_object_or_404,django.shortcuts.render_to_response,django.contrib.auth.models.User,django.core.urlresolvers.reverse,django.utils.dates.WEEKDAYS,django.views.generic.create_update.delete_object,django.views.generic.simple.direct_to_template,django.core.management.color.no_style,django.utils.translation.ugettext_lazy,django.template.defaultfilters.slugify,django.core.management.base.NoArgsCommand,django.db.models.Q,django.utils.dateformat.format,django.template.defaultfilters.date,django.contrib.syndication.feeds.FeedDoesNotExist,django.views.generic.list_detail.object_list,django.template,django.core.management.execute_manager,django.http.Http404,django.conf.settings,django.http.HttpResponseRedirect,django.core.exceptions.ImproperlyConfigured,django.forms,django.template.RequestContext,django.contrib.contenttypes.models.ContentType,django.http.HttpResponse,django.contrib.contenttypes.fields,django.db.models.signals.pre_save,django.db.models,django.conf.urls.defaults.*,django.contrib.admin,django.contrib.auth.decorators.login_required,django.utils.dates.WEEKDAYS_ABBR,django.core.exceptions.ObjectDoesNotExist,django.db.models.query.QuerySet"
+        }
+      ]
+    },
+    {
+      "author": "Imran Anwar <imranwar@gmail.com>",
+      "group": "",
+      "name": "asposestorage",
+      "version": "1.0.2",
+      "description": "Aspose Cloud SDK for Python allows you to use Aspose API in your Python applications",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "99b5b18f041bee415fb5d80e794f7ca70c0c6271c6a4be18471baa1ce23a368b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license": {
+            "name": "UNKNOWN"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/asposestorage@1.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.aspose.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/asposestorage@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: asposestorage"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "models.Calendar,models.Event"
+        }
+      ]
+    },
+    {
+      "author": "Kuba Janoszek <kuba.janoszek@gmail.com>",
+      "group": "",
+      "name": "django-settings",
+      "version": "1.3.12",
+      "description": "Simple django reusable application for storing project settings in database.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8a7c01bd628291746d5fd57c6f1beeb5c0f1ce784cccccf2ddae989e5f69126d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "name": "UNKNOWN"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/django-settings@1.3.12",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://github.com/jqb/django-settings"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django-settings@1.3.12",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: django-settings"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "settings"
+        }
+      ]
+    },
+    {
+      "author": "Sameen Karim <sameen@eventable.com>",
+      "group": "",
+      "name": "vobject",
+      "version": "0.9.6.1",
+      "description": "A full-featured Python package for parsing and creating iCalendar and vCard files",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "96512aec74b90abb71f6b53898dd7fe47300cc940104c4f79148f0671f790101"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "Apache"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/vobject@0.9.6.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://eventable.github.io/vobject/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/vobject@0.9.6.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: vobject"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "vobject"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "django-schedule",
+      "version": "0.5b0",
+      "scope": "optional",
+      "purl": "pkg:pypi/django-schedule@0.5b0",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django-schedule@0.5b0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-m9pvNk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "setuptools",
+      "version": "53.0.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/setuptools@53.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/setuptools@53.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "six",
+      "version": "1.16.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/six@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.8.2",
+        "pkg:pypi/django@5.0.1",
+        "pkg:pypi/asposestorage@1.0.2",
+        "pkg:pypi/django-settings@1.3.12",
+        "pkg:pypi/vobject@0.9.6.1",
+        "pkg:pypi/django-schedule@0.5b0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.8.2",
+      "dependsOn": [
+        "pkg:pypi/six@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django@5.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/asposestorage@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-settings@1.3.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/vobject@0.9.6.1",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.8.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/setuptools@53.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-schedule@0.5b0",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.8.2",
+        "pkg:pypi/setuptools@53.0.0",
+        "pkg:pypi/vobject@0.9.6.1"
+      ]
+    }
+  ]
+}

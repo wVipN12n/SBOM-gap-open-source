@@ -1,0 +1,30 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.2",
+    "creationInfo": {
+        "created": "2024-03-12T03:48:37Z",
+        "creators": [
+            "Tool: ort-17.1.1-021.sha.4590097"
+        ],
+        "licenseListVersion": "3.22"
+    },
+    "name": "Unnamed document",
+    "dataLicense": "CC0-1.0",
+    "documentNamespace": "spdx://20fee0cc-c60b-4ab1-b6bc-e5dd42eff5df",
+    "documentDescribes": [
+        "SPDXRef-Project-PIP-setup.py"
+    ],
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Project-PIP-setup.py",
+            "copyrightText": "Copyright (c) 2010 LearnBoost <dev@learnboost.com>\nCopyright (c) Stephen McDonald and individual contributors\nCopyright 2006 Adobe Systems Incorporated\nCopyright Hiroshi Ichikawa <http://gimite.net/en/>",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "homepage": "NONE",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "setup.py",
+            "summary": "NONE"
+        }
+    ]
+}

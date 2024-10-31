@@ -1,0 +1,30 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.2",
+    "creationInfo": {
+        "created": "2024-03-12T17:38:33Z",
+        "creators": [
+            "Tool: ort-17.1.1-021.sha.4590097"
+        ],
+        "licenseListVersion": "3.22"
+    },
+    "name": "Unnamed document",
+    "dataLicense": "CC0-1.0",
+    "documentNamespace": "spdx://7db2df73-2e67-49f9-a9c0-e6ae2c46495d",
+    "documentDescribes": [
+        "SPDXRef-Project-Poetry-poetry.lock"
+    ],
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Project-Poetry-poetry.lock",
+            "copyrightText": "Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>\nCopyright (c) 2016 document.write new",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "homepage": "NONE",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "poetry.lock",
+            "summary": "NONE"
+        }
+    ]
+}

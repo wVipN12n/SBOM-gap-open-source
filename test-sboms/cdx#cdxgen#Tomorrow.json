@@ -1,0 +1,106 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2b70a15f-b18b-468c-924b-dc5e3b75f745",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-10T18:32:46.231Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "tomorrow",
+      "version": "0.2.4",
+      "purl": "pkg:pypi/tomorrow@0.2.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tomorrow@0.2.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-clQzMi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "futures",
+      "version": "3.0.5",
+      "purl": "pkg:pypi/futures@3.0.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/futures@3.0.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/tomorrow@0.2.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/futures@3.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tomorrow@0.2.4",
+      "dependsOn": [
+        "pkg:pypi/futures@3.0.5"
+      ]
+    }
+  ]
+}

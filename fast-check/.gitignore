@@ -1,0 +1,6 @@
+results/extracted/*
+results/matched/*
+__pycache__/
+logs/*
+all-sboms/*
+.vscode/

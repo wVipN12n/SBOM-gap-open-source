@@ -1,0 +1,1395 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:8615797c-28f9-4ac0-8cd2-8d5e7b53a87d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-10T01:51:10.902Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "typing-extensions",
+      "version": "4.9.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/typing-extensions@4.9.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "proto-plus",
+      "version": "1.23.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/proto-plus@1.23.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/proto-plus@1.23.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "protobuf",
+      "version": "4.25.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/protobuf@4.25.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/protobuf@4.25.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "langdetect",
+      "version": "1.0.9",
+      "scope": "optional",
+      "purl": "pkg:pypi/langdetect@1.0.9",
+      "type": "library",
+      "bom-ref": "pkg:pypi/langdetect@1.0.9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "ImportedModules",
+          "value": "langdetect.detect"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "six",
+      "version": "1.16.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/six@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "httpx",
+      "version": "0.26.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/httpx@0.26.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx@0.26.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "ImportedModules",
+          "value": "httpx.AsyncClient"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "anyio",
+      "version": "4.2.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/anyio@4.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/anyio@4.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "exceptiongroup",
+      "version": "1.2.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/exceptiongroup@1.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/exceptiongroup@1.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "idna",
+      "version": "3.6",
+      "scope": "optional",
+      "purl": "pkg:pypi/idna@3.6",
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sniffio",
+      "version": "1.3.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/sniffio@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sniffio@1.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "httpcore",
+      "version": "1.0.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/httpcore@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpcore@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "certifi",
+      "version": "2023.11.17",
+      "scope": "optional",
+      "purl": "pkg:pypi/certifi@2023.11.17",
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2023.11.17",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "h11",
+      "version": "0.14.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/h11@0.14.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/h11@0.14.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "h2",
+      "version": "4.1.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/h2@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/h2@4.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "hpack",
+      "version": "4.0.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/hpack@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/hpack@4.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "hyperframe",
+      "version": "6.0.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/hyperframe@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/hyperframe@6.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "grpcio-status",
+      "version": "1.60.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/grpcio-status@1.60.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/grpcio-status@1.60.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "grpcio",
+      "version": "1.60.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/grpcio@1.60.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/grpcio@1.60.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "googleapis-common-protos",
+      "version": "1.62.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/googleapis-common-protos@1.62.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/googleapis-common-protos@1.62.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "google-cloud-translate",
+      "version": "3.14.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/google-cloud-translate@3.14.0",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/google-cloud-translate@3.14.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "google-api-core",
+      "version": "2.15.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/google-api-core@2.15.0",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/google-api-core@2.15.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "google-auth",
+      "version": "2.26.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/google-auth@2.26.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/google-auth@2.26.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pyasn1-modules",
+      "version": "0.3.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/pyasn1-modules@0.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyasn1-modules@0.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pyasn1",
+      "version": "0.5.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/pyasn1@0.5.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyasn1@0.5.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cachetools",
+      "version": "5.3.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/cachetools@5.3.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cachetools@5.3.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "rsa",
+      "version": "4.9",
+      "scope": "optional",
+      "purl": "pkg:pypi/rsa@4.9",
+      "type": "library",
+      "bom-ref": "pkg:pypi/rsa@4.9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "requests",
+      "version": "2.31.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "requests"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "charset-normalizer",
+      "version": "3.3.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/charset-normalizer@3.3.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "urllib3",
+      "version": "2.1.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/urllib3@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@2.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "google-cloud-core",
+      "version": "2.4.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/google-cloud-core@2.4.1",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/google-cloud-core@2.4.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "deep-translator",
+      "version": "1.11.4",
+      "scope": "optional",
+      "purl": "pkg:pypi/deep-translator@1.11.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/deep-translator@1.11.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "ImportedModules",
+          "value": "deep_translator.GoogleTranslator"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "beautifulsoup4",
+      "version": "4.12.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/beautifulsoup4@4.12.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/beautifulsoup4@4.12.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "soupsieve",
+      "version": "2.5",
+      "scope": "optional",
+      "purl": "pkg:pypi/soupsieve@2.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/soupsieve@2.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "colorama",
+      "version": "0.4.6",
+      "scope": "optional",
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "type": "library",
+      "bom-ref": "pkg:pypi/colorama@0.4.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "ImportedModules",
+          "value": "colorama.Style,colorama.Back,colorama.Fore"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "browser-cookie3",
+      "version": "0.19.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/browser-cookie3@0.19.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/browser-cookie3@0.19.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "ImportedModules",
+          "value": "browser_cookie3"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pycryptodomex",
+      "version": "3.19.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/pycryptodomex@3.19.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycryptodomex@3.19.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "lz4",
+      "version": "4.3.3",
+      "scope": "optional",
+      "purl": "pkg:pypi/lz4@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/lz4@4.3.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "jeepney",
+      "version": "0.8.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/jeepney@0.8.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jeepney@0.8.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "aiohttp",
+      "version": "3.9.1",
+      "description": "Async http client/server framework (asyncio)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e1f80197f8b0b846a8d5cf7b7ec6084493950d0882cc5537fb7b96a69e3c8590"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/aiohttp@3.9.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/aio-libs/aiohttp"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/aiohttp@3.9.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: aiohttp"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "aiohttp"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "bardapi",
+      "version": "0.1.38",
+      "scope": "optional",
+      "purl": "pkg:pypi/bardapi@0.1.38",
+      "type": "library",
+      "bom-ref": "pkg:pypi/bardapi@0.1.38",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-ikXDqZ"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/aiohttp@3.9.1",
+        "pkg:pypi/typing-extensions@4.9.0",
+        "pkg:pypi/langdetect@1.0.9",
+        "pkg:pypi/h2@4.1.0",
+        "pkg:pypi/grpcio-status@1.60.0",
+        "pkg:pypi/google-cloud-translate@3.14.0",
+        "pkg:pypi/deep-translator@1.11.4",
+        "pkg:pypi/browser-cookie3@0.19.1",
+        "pkg:pypi/bardapi@0.1.38"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/protobuf@4.25.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/proto-plus@1.23.0",
+      "dependsOn": [
+        "pkg:pypi/protobuf@4.25.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/six@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/langdetect@1.0.9",
+      "dependsOn": [
+        "pkg:pypi/six@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/anyio@4.2.0",
+      "dependsOn": [
+        "pkg:pypi/exceptiongroup@1.2.0",
+        "pkg:pypi/idna@3.6",
+        "pkg:pypi/sniffio@1.3.0",
+        "pkg:pypi/typing-extensions@4.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/exceptiongroup@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/idna@3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sniffio@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpcore@1.0.2",
+      "dependsOn": [
+        "pkg:pypi/certifi@2023.11.17",
+        "pkg:pypi/h11@0.14.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/certifi@2023.11.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/h11@0.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpx@0.26.0",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.2.0",
+        "pkg:pypi/certifi@2023.11.17",
+        "pkg:pypi/httpcore@1.0.2",
+        "pkg:pypi/idna@3.6",
+        "pkg:pypi/sniffio@1.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/hpack@4.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/hyperframe@6.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/h2@4.1.0",
+      "dependsOn": [
+        "pkg:pypi/hpack@4.0.0",
+        "pkg:pypi/hyperframe@6.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/grpcio@1.60.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/googleapis-common-protos@1.62.0",
+      "dependsOn": [
+        "pkg:pypi/protobuf@4.25.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/grpcio-status@1.60.0",
+      "dependsOn": [
+        "pkg:pypi/googleapis-common-protos@1.62.0",
+        "pkg:pypi/grpcio@1.60.0",
+        "pkg:pypi/protobuf@4.25.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/google-api-core@2.15.0",
+      "dependsOn": [
+        "pkg:pypi/google-auth@2.26.1",
+        "pkg:pypi/googleapis-common-protos@1.62.0",
+        "pkg:pypi/protobuf@4.25.1",
+        "pkg:pypi/requests@2.31.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/google-auth@2.26.1",
+      "dependsOn": [
+        "pkg:pypi/cachetools@5.3.2",
+        "pkg:pypi/pyasn1-modules@0.3.0",
+        "pkg:pypi/rsa@4.9"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyasn1-modules@0.3.0",
+      "dependsOn": [
+        "pkg:pypi/pyasn1@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyasn1@0.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cachetools@5.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rsa@4.9",
+      "dependsOn": [
+        "pkg:pypi/pyasn1@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/requests@2.31.0",
+      "dependsOn": [
+        "pkg:pypi/certifi@2023.11.17",
+        "pkg:pypi/charset-normalizer@3.3.2",
+        "pkg:pypi/idna@3.6",
+        "pkg:pypi/urllib3@2.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/google-cloud-core@2.4.1",
+      "dependsOn": [
+        "pkg:pypi/google-api-core@2.15.0",
+        "pkg:pypi/google-auth@2.26.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/google-cloud-translate@3.14.0",
+      "dependsOn": [
+        "pkg:pypi/google-api-core@2.15.0",
+        "pkg:pypi/google-cloud-core@2.4.1",
+        "pkg:pypi/proto-plus@1.23.0",
+        "pkg:pypi/protobuf@4.25.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/beautifulsoup4@4.12.2",
+      "dependsOn": [
+        "pkg:pypi/soupsieve@2.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/soupsieve@2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/deep-translator@1.11.4",
+      "dependsOn": [
+        "pkg:pypi/beautifulsoup4@4.12.2",
+        "pkg:pypi/requests@2.31.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/colorama@0.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycryptodomex@3.19.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/lz4@4.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jeepney@0.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/browser-cookie3@0.19.1",
+      "dependsOn": [
+        "pkg:pypi/jeepney@0.8.0",
+        "pkg:pypi/lz4@4.3.3",
+        "pkg:pypi/pycryptodomex@3.19.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/aiohttp@3.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/bardapi@0.1.38",
+      "dependsOn": [
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/httpx@0.26.0",
+        "pkg:pypi/requests@2.31.0"
+      ]
+    }
+  ]
+}

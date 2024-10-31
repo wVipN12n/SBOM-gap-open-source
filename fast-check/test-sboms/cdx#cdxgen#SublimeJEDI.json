@@ -1,0 +1,1532 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:dfcea8c6-2e13-410b-b591-1ec3cb714516",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-10T23:08:35.541Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "typing-extensions",
+      "version": "4.9.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/typing-extensions@4.9.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "typed-ast",
+      "version": "1.5.5",
+      "scope": "optional",
+      "purl": "pkg:pypi/typed-ast@1.5.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typed-ast@1.5.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "pytype",
+      "version": "2024.1.5",
+      "scope": "optional",
+      "purl": "pkg:pypi/pytype@2024.1.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytype@2024.1.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "pycnite",
+      "version": "2023.10.11",
+      "scope": "optional",
+      "purl": "pkg:pypi/pycnite@2023.10.11",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycnite@2023.10.11",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "libcst",
+      "version": "1.1.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/libcst@1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/libcst@1.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "libcst.metadata.SyntacticPositionProvider,libcst,libcst.BaseExpression,libcst.FunctionDef,libcst.Subscript,libcst.Name,libcst.Annotation"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "typing-inspect",
+      "version": "0.9.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/typing-inspect@0.9.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-inspect@0.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mypy-extensions",
+      "version": "1.0.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/mypy-extensions@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/mypy-extensions@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "PyYAML",
+      "version": "6.0.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/pyyaml@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "networkx",
+      "version": "3.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/networkx@3.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/networkx@3.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pydot",
+      "version": "2.0.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/pydot@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydot@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pyparsing",
+      "version": "3.1.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/pyparsing@3.1.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyparsing@3.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "tabulate",
+      "version": "0.9.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/tabulate@0.9.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tabulate@0.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "attrs",
+      "version": "23.2.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/attrs@23.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/attrs@23.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "importlab",
+      "version": "0.8.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/importlab@0.8.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/importlab@0.8.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "toml",
+      "version": "0.10.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/toml@0.10.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/toml@0.10.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ninja",
+      "version": "1.11.1.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/ninja@1.11.1.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/ninja@1.11.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "Jinja2",
+      "version": "3.1.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/jinja2@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jinja2@3.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "MarkupSafe",
+      "version": "2.1.3",
+      "scope": "optional",
+      "purl": "pkg:pypi/markupsafe@2.1.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/markupsafe@2.1.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mypy",
+      "version": "latest",
+      "scope": "optional",
+      "purl": "pkg:pypi/mypy@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/mypy@latest",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "ImportedModules",
+          "value": "mypy.types.Type,mypy.nodes.MemberExpr,mypy.nodes.MypyFile,mypy.nodes.SymbolTable,mypy.types.AnyType,mypy.errors.Errors,mypy.nodes.Context,mypy.types.CallableType,mypy.types.TypeOfAny,mypy.nodes.Var,mypy.types.Instance,mypy.nodes.TypeInfo,mypy.nodes.ARG_STAR2,mypy.types.NoneTyp,mypy.plugin.MethodContext,mypy.nodes.NameExpr,mypy.nodes.GDEF,mypy.nodes.ClassDef,mypy.nodes.AssignmentStmt,mypy.nodes.SymbolTableNode,mypy.nodes.StrExpr,mypy.nodes.FuncDef,mypy.plugin.DynamicClassDefContext,mypy.checker.TypeChecker,mypy.plugin.ClassDefContext,mypy.nodes.Block,mypy.plugin.CheckerPluginInterface,mypy.nodes.MDEF,mypy.plugin.Plugin,mypy.nodes.Expression,mypy.types.TypeType,mypy.nodes.PlaceholderNode,mypy.nodes.Argument,mypy.plugin.AttributeContext,mypy.options.Options,mypy.types.UnionType,mypy.plugin.FunctionContext,mypy.checker,mypy.types.TypedDictType,mypy.nodes.RefExpr,mypy.plugins.common.add_method,mypy.types.TupleType,mypy.semanal.SemanticAnalyzer,mypy.mro.calculate_mro,mypy.plugins.common,mypy.nodes.SymbolNode"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "tomli",
+      "version": "2.0.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/tomli@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tomli@2.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "isort",
+      "version": "4.3.21",
+      "scope": "optional",
+      "purl": "pkg:pypi/isort@4.3.21",
+      "type": "library",
+      "bom-ref": "pkg:pypi/isort@4.3.21",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "flake8-pyi",
+      "version": "19.3.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/flake8-pyi@19.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/flake8-pyi@19.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "flake8",
+      "version": "3.7.8",
+      "scope": "optional",
+      "purl": "pkg:pypi/flake8@3.7.8",
+      "type": "library",
+      "bom-ref": "pkg:pypi/flake8@3.7.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pyflakes",
+      "version": "2.1.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/pyflakes@2.1.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyflakes@2.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "entrypoints",
+      "version": "0.3",
+      "scope": "optional",
+      "purl": "pkg:pypi/entrypoints@0.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/entrypoints@0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mccabe",
+      "version": "0.6.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/mccabe@0.6.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/mccabe@0.6.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pycodestyle",
+      "version": "2.5.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/pycodestyle@2.5.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycodestyle@2.5.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "flake8-bugbear",
+      "version": "19.8.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/flake8-bugbear@19.8.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/flake8-bugbear@19.8.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "black",
+      "version": "19.3b0",
+      "scope": "optional",
+      "purl": "pkg:pypi/black@19.3b0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/black@19.3b0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-bpBm6v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "appdirs",
+      "version": "1.4.4",
+      "scope": "optional",
+      "purl": "pkg:pypi/appdirs@1.4.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/appdirs@1.4.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "click",
+      "version": "8.1.7",
+      "scope": "optional",
+      "purl": "pkg:pypi/click@8.1.7",
+      "type": "library",
+      "bom-ref": "pkg:pypi/click@8.1.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/dependencies/jedi/third_party/typeshed/requirements-tests-py3.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cpickle",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/cpickle@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cpickle@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module cpickle"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "cPickle"
+        }
+      ]
+    },
+    {
+      "author": "Jonathan Hartley <tartley@tartley.com>",
+      "group": "",
+      "name": "colorama",
+      "version": "0.4.6",
+      "description": "Cross-platform colored terminal text.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "type": "library",
+      "bom-ref": "pkg:pypi/colorama@0.4.6",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: colorama"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "colorama.init,colorama.initialise,colorama.Fore"
+        }
+      ]
+    },
+    {
+      "author": "Django Software Foundation <foundation@djangoproject.com>",
+      "group": "",
+      "name": "django",
+      "version": "5.0.1",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f47a37a90b9bbe2c8ec360235192c7fddfdc832206fcf618bb849b39256affc1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/django@5.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.djangoproject.com/"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django@5.0.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: django"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "django.db.models.fields.reverse_related.ForeignObjectRel,django.core.exceptions.FieldError,django.db.models.fields.reverse_related.ManyToOneRel,django.apps.apps,django.db.models.fields.CharField,django.db.models.fields.reverse_related.ManyToManyRel,django.db.models.fields.related.ForeignKey,django.utils.functional.cached_property,django.db.models.fields.related.RelatedField,django.db.models.base.Model,django.db.models.fields.DateField,django.db.models.fields.AutoField,django.contrib.contenttypes.fields.GenericForeignKey,django.core.exceptions.FieldDoesNotExist,django.db.models.sql.query.Query,django.db.models.fields.Field,django.conf.settings,django.db.models.fields.DateTimeField,django.apps.registry.Apps,django.conf.LazySettings,django.db.models,django.db.models.fields.reverse_related.OneToOneRel,django.contrib.postgres.fields.ArrayField,django.db.models.lookups.Exact"
+        }
+      ]
+    },
+    {
+      "author": "David Halter <davidhalter88@gmail.com>",
+      "group": "",
+      "name": "jedi",
+      "version": "0.19.1",
+      "description": "An autocompletion tool for Python that can be used for text editors.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e983c654fe5c02867aef4cdfce5a2fbb4a50adc0af145f70504238f18ef5e7e0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/jedi@0.19.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/davidhalter/jedi"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/jedi@0.19.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: jedi"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "jedi.inference.cache.inference_state_function_cache,jedi.inference.gradual.type_var.TypeVarClass,jedi.inference.imports.Importer,jedi.inference.compiled.access,jedi.inference.imports.SubModuleName,jedi.api.refactoring.extract.extract_variable,jedi.inference.syntax_tree.check_tuple_assignments,jedi.file_io.ZipFileIO,jedi.api.helpers,jedi.__version__,jedi.inference.names.ImportName,jedi.api.refactoring.Refactoring,jedi._compatibility.unwrap,jedi._compatibility.u,jedi.inference.gradual.conversion.convert_values,jedi.inference.filters.AbstractFilter,jedi.inference.gradual.annotation._get_forward_reference_node,jedi.inference.value.dynamic_arrays.get_dynamic_array_instance,jedi.utils,jedi.inference.names.ValueName,jedi.inference.helpers.SimpleGetItemNotFound,jedi.parser_utils.function_is_staticmethod,jedi.inference.arguments.ValuesArguments,jedi.inference.syntax_tree.infer_node,jedi.inference.utils.to_tuple,jedi.inference.gradual.generics.TupleGenericManager,jedi.inference.compiled.get_string_value_set,jedi.inference.value.instance.InstanceArguments,jedi.inference.value.function.FunctionValue,jedi.inference.value.decorator.Decoratee,jedi.parser_utils.cut_value_at_position,jedi.inference.arguments,jedi.inference.filters.MergedFilter,jedi.inference.filters.publish_method,jedi.inference.value.klass.ClassFilter,jedi.inference.syntax_tree.infer_expr_stmt,jedi.inference.finder.check_flow_information,jedi.inference.gradual.typing.TypedDictBase,jedi.inference.value.instance.AnonymousMethodExecutionContext,jedi.inference.names.AbstractArbitraryName,jedi.inference.references.recurse_find_python_folders_and_files,jedi.plugins.registry,jedi.inference.compiled.access.get_api_type,jedi.inference.helpers.get_int_or_none,jedi.inference.helpers.reraise_getitem_errors,jedi.api.project.Project,jedi.plugins.pytest,jedi.api.Script,jedi.inference.helpers.get_str_or_none,jedi.inference.gradual.conversion.convert_names,jedi.api.strings.complete_dict,jedi.inference.gradual.typeshed.create_stub_module,jedi.inference.compiled.create_simple_object,jedi.api.refactoring.EXPRESSION_PARTS,jedi.inference.helpers.get_names_of_node,jedi.api.project.get_default_project,jedi.inference.gradual.typeshed.try_to_load_stub_cached,jedi.inference.compiled.access.create_access_path,jedi.inference.helpers.is_string,jedi.api.strings.get_quote_ending,jedi.inference.compiled.value.CompiledValue,jedi.inference.gradual.base.GenericClass,jedi.api.exceptions.InternalError,jedi.inference.imports,jedi.cache.memoize_method,jedi.parser_utils.is_scope,jedi._compatibility.GeneralizedPopen,jedi.inference.value.FunctionValue,jedi.inference.helpers.values_from_qualified_names,jedi,jedi.api.environment.InvalidPythonEnvironment,jedi.api.set_debug_function,jedi._compatibility.FileNotFoundError,jedi.parser_utils.get_cached_parent_scope,jedi.parser_utils,jedi.cache,jedi.api.exceptions.WrongVersion,jedi.inference.arguments.unpack_arglist,jedi.inference.utils.PushBackIterator,jedi.inference.value.dynamic_arrays.ListModification,jedi.Script,jedi.inference.base_value.LazyValueWrapper,jedi.api.helpers.split_search_string,jedi._compatibility.literal_eval,jedi.api.refactoring.extract.extract_function,jedi.api.interpreter,jedi.inference.syntax_tree.infer_atom,jedi.inference.gradual.annotation.py__annotations__,jedi.inference.value.module.SubModuleDictMixin,jedi.inference.compiled.mixed.MixedObject,jedi.inference.dynamic_params.dynamic_param_lookup,jedi.api.keywords,jedi.inference.helpers,jedi.inference.compiled.value.CompiledValueFilter,jedi.inference.imports.iter_module_names,jedi.inference.gradual.base.BaseTypingValue,jedi.inference.names.SubModuleName,jedi.inference.lazy_value.LazyKnownValue,jedi._compatibility.use_metaclass,jedi.inference.arguments.AbstractArguments,jedi.common.value.BaseValue,jedi.inference.value.iterable.unpack_tuple_to_dict,jedi.inference.names.StubModuleName,jedi.inference.syntax_tree.tree_name_to_values,jedi.inference.compiled.access.SignatureParam,jedi.file_io.FileIO,jedi.api.environment.find_virtualenvs,jedi.inference.names.AnonymousParamName,jedi._compatibility.find_module,jedi.inference.syntax_tree.infer_trailer,jedi.inference.value.iterable.SequenceLiteralValue,jedi._compatibility.ImplicitNSInfo,jedi.api.environment.get_cached_default_environment,jedi.common.BaseValueSet,jedi.inference.signature.SignatureWrapper,jedi.inference.base_value.sentinel,jedi.inference.gradual.annotation.infer_param,jedi.inference.value.function.FunctionAndClassBase,jedi.inference.sys_path.transform_path_to_dotted,jedi.inference.gradual.annotation.infer_return_for_callable,jedi.inference.gradual.base.DefineGenericBase,jedi.debug.dbg,jedi._compatibility.builtins,jedi.InterpreterEnvironment,jedi.inference.filters.AttributeOverwrite,jedi.inference.helpers.is_number,jedi._compatibility.queue,jedi.inference.cache.CachedMetaClass,jedi.inference.gradual.typeshed.TYPESHED_PATH,jedi.inference.value.iterable.FakeTuple,jedi.common.BaseValue,jedi.inference.base_value.ValueSet,jedi.inference.finder,jedi._compatibility.weakref,jedi.inference.value.ClassValue,jedi.inference.helpers.parse_dotted_names,jedi.inference.gradual.typeshed.import_module_decorator,jedi.inference.compiled.getattr_static.getattr_static,jedi._compatibility.Parameter,jedi.inference.value.dynamic_arrays.check_array_additions,jedi.plugins.stdlib,jedi.inference.base_value.TreeValue,jedi.plugins.django,jedi.common.utils.indent_block,jedi.inference.imports.load_namespace_from_path,jedi.inference.compiled.value.create_from_access_path,jedi.Interpreter,jedi.inference.helpers.deep_ast_copy,jedi.inference.helpers.infer_call_of_leaf,jedi.api.exceptions.RefactoringError,jedi.inference.value.instance.MethodExecutionContext,jedi.inference.gradual.typing.TypingModuleFilterWrapper,jedi.inference.InferenceState,jedi.api.completion.Parameter,jedi.inference.compiled.access._sentinel,jedi.api.file_name.complete_file_name,jedi.inference.value.function.MethodValue,jedi.inference.imports.load_module_from_path,jedi.inference.signature.BuiltinSignature,jedi.inference.helpers.is_big_annoying_library,jedi.inference.references.get_module_contexts_containing_name,jedi.inference.compiled.subprocess.functions,jedi._compatibility.PermissionError,jedi.inference.filters.GlobalNameFilter,jedi.inference.value.module.ModuleValue,jedi.api.helpers.validate_line_column,jedi.inference.compiled.access.DirectObjectAccess,jedi.inference.param.get_executed_param_names_and_issues,jedi.inference.filters.FilterWrapper,jedi.inference.context.ValueContext,jedi.inference.cache.inference_state_method_generator_cache,jedi.inference.names.ParamNameInterface,jedi.inference.value.klass.ClassMixin,jedi.inference.compiled.access.ALLOWED_GETITEM_TYPES,jedi.common.utils.traverse_parents,jedi.inference.value.instance.BoundMethod,jedi.inference.utils.safe_property,jedi.inference.gradual.annotation,jedi.inference.compiled,jedi.inference.imports.goto_import,jedi.inference.context.ModuleContext,jedi.inference.gradual.utils.load_proper_stub_module,jedi._compatibility.unicode,jedi.api.preload_module,jedi.cache.signature_time_cache,jedi.inference.compiled.access.AccessPath,jedi.inference.parser_cache.get_yield_exprs,jedi.inference.base_value.Value,jedi.api.errors.parso_to_jedi_errors,jedi.inference.gradual.conversion.to_stub,jedi.inference.compiled.subprocess.InferenceStateSubprocess,jedi.inference.value.ModuleValue,jedi.inference.names.StubName,jedi.inference.signature.TreeSignature,jedi.inference.value.iterable.FakeDict,jedi.inference.helpers.is_literal,jedi.inference.gradual.annotation.merge_type_var_dicts,jedi.inference.context.get_global_filters,jedi._compatibility.which,jedi.inference.star_args.process_params,jedi.inference.references.find_references,jedi.api.helpers.get_module_names,jedi.inference.cache.inference_state_method_cache,jedi.api.classes.Completion,jedi.inference.gradual.annotation.merge_pairwise_generics,jedi.inference.compiled.value.CompiledValueName,jedi._compatibility.force_unicode,jedi.inference.lazy_value.LazyKnownValues,jedi._compatibility.zip_longest,jedi.inference.analysis,jedi.api.environment.find_system_environments,jedi.inference.references.search_in_file_ios,jedi.file_io.FolderIO,jedi.inference.utils.ignored,jedi.inference.context.CompiledContext,jedi.inference.gradual.annotation.infer_return_types,jedi.inference.docstrings,jedi.inference.filters.ParserTreeFilter,jedi.inference.lazy_value.LazyTreeValue,jedi.inference.value.CompiledInstance,jedi.inference.value.TreeInstance,jedi._compatibility.py_version,jedi.inference.gradual.typing.Any,jedi.parser_utils.expr_is_dotted,jedi.inference.names.NameWrapper,jedi.api.environment.get_default_environment,jedi.inference.compiled.subprocess,jedi.inference.compiled.subprocess.CompiledSubprocess,jedi.inference.value.instance.TreeInstance,jedi.common.utils.monkeypatch,jedi._compatibility.pickle_load,jedi.inference.recursion.execution_allowed,jedi.inference.value.iterable,jedi.debug,jedi.common.value.BaseValueSet,jedi.inference.base_value.iterator_to_value_set,jedi._compatibility.IsADirectoryError,jedi.inference.gradual.typeshed.StubModuleValue,jedi.api.refactoring,jedi.inference.utils.unite,jedi.api.environment.create_environment,jedi.inference.names.ParamName,jedi.inference.value.function.OverloadedFunctionValue,jedi.inference.value,jedi.inference.value.instance.AnonymousInstance,jedi._compatibility.highest_pickle_protocol,jedi.inference.compiled.CompiledValueName,jedi.inference.cache.inference_state_as_method_param_cache,jedi._compatibility.reraise,jedi.inference.base_value.iterate_values,jedi.parser_utils.get_executable_nodes,jedi.inference.gradual.typeshed.parse_stub_module,jedi.api.names,jedi.api.helpers.match,jedi.inference.names.BaseTreeParamName,jedi.inference.gradual.stub_value.TypingModuleWrapper,jedi.parser_utils.function_is_classmethod,jedi.inference.names.TreeNameDefinition,jedi.api.classes,jedi.parser_utils.get_cached_code_lines,jedi.inference.filters.FunctionExecutionFilter,jedi.inference.compiled.access.COMPARISON_OPERATORS,jedi.inference.gradual.generics.LazyGenericManager,jedi.inference.names.ValueNameMixin,jedi.inference.context.NamespaceContext,jedi.inference.value.function.FunctionNameInClass,jedi.inference.value.function.FunctionExecutionContext,jedi.inference.compiled.value.CompiledName,jedi.inference.sys_path.discover_buildout_paths,jedi.inference.context.CompiledModuleContext,jedi.api.completion.Completion,jedi.inference.helpers.is_stdlib_path,jedi.api.Interpreter,jedi.inference.gradual.base.BaseTypingValueWithGenerics,jedi.api.environment.InterpreterEnvironment,jedi.plugins.flask,jedi._compatibility.is_py3,jedi.inference.base_value.NO_VALUES,jedi.inference.compiled.mixed,jedi.inference.gradual.annotation.infer_type_vars_for_execution,jedi._compatibility.cast_path,jedi.inference.utils.to_list,jedi.inference.signature.AbstractSignature,jedi.inference.base_value.ContextualizedNode,jedi.inference.value.namespace.ImplicitNamespaceValue,jedi.inference.filters.LazyAttributeOverwrite,jedi.inference.value.dynamic_arrays.DictModification,jedi.inference.value.function.FunctionMixin,jedi.inference.base_value.HelperValueMixin,jedi.inference.lazy_value.get_merged_lazy_value,jedi.parser_utils.clean_scope_docstring,jedi.api.helpers.filter_follow_imports,jedi.inference.arguments.TreeArgumentsWrapper,jedi.inference.filters.AnonymousFunctionExecutionFilter,jedi.inference.value.instance.CompiledInstance,jedi.plugins.plugin_manager,jedi.inference.lazy_value.LazyUnknownValue,jedi.api.completion.search_in_module,jedi.inference.imports.follow_error_node_imports_if_possible,jedi.inference.arguments.TreeArguments,jedi.inference.compiled.builtin_from_name,jedi.inference.gradual.type_var.TypeVar,jedi.inference.names.AbstractNameDefinition,jedi.inference.gradual.stub_value.StubModuleValue,jedi.parser_utils.find_statement_documentation,jedi.inference.gradual.typing.TypedDict,jedi.inference.base_value.ValueWrapper,jedi._compatibility.scandir,jedi.inference.gradual.stub_value.VersionInfo,jedi._compatibility.all_suffixes,jedi.inference.arguments.try_iter_content,jedi.inference.compiled.mixed.MixedName,jedi.parser_utils.get_flow_branch_keyword,jedi.inference.sys_path,jedi.file_io.KnownContentFileIO,jedi._compatibility.encoding,jedi.parser_utils.get_parent_scope,jedi.inference.names.ParamNameWrapper,jedi.inference.value.instance.AbstractInstanceValue,jedi.cache.time_cache,jedi.inference.compiled.subprocess.InferenceStateSameProcess,jedi.api.completion_cache,jedi.inference.context.CompForContext,jedi.settings,jedi.inference.value.function.BaseFunctionExecutionContext,jedi.inference.filters.DictFilter,jedi.inference.recursion,jedi.inference.value.instance,jedi.inference.imports.ImportName,jedi.api.strings.StringName,jedi.inference.context.ClassContext,jedi.inference.value.klass.ClassValue,jedi._compatibility.NotADirectoryError,jedi._compatibility.pickle_dump,jedi.inference.arguments.repack_with_argument_clinic,jedi.api.environment.get_system_environment,jedi.inference.gradual.annotation.find_unknown_type_vars,jedi.api.keywords.KeywordName,jedi.inference.context.TreeContextMixin,jedi.inference.flow_analysis,jedi.inference.names.ModuleName,jedi.inference.param.get_executed_param_names,jedi.parser_utils.get_sync_comp_fors"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mdpopups",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/mdpopups@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/mdpopups@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module mdpopups"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "mdpopups"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mypy-django-plugin",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/mypy-django-plugin@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/mypy-django-plugin@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module mypy-django-plugin"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "mypy_django_plugin.transformers.fields.get_field_descriptor_types,mypy_django_plugin.transformers.meta,mypy_django_plugin.transformers.querysets,mypy_django_plugin.django.context.DjangoContext,mypy_django_plugin.transformers.orm_lookups,mypy_django_plugin.lib.helpers,mypy_django_plugin.transformers.forms,mypy_django_plugin.transformers.settings,mypy_django_plugin.transformers.fields,mypy_django_plugin.transformers.init_create,mypy_django_plugin.django.context.LookupsAreUnsupported,mypy_django_plugin.lib.fullnames,mypy_django_plugin.transformers.request,mypy_django_plugin.transformers.managers.create_new_manager_class_from_from_queryset_method,mypy_django_plugin.transformers.models.process_model_class"
+        }
+      ]
+    },
+    {
+      "author": "David Halter <davidhalter88@gmail.com>",
+      "group": "",
+      "name": "parso",
+      "version": "0.8.3",
+      "description": "A Python Parser",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/parso@0.8.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/davidhalter/parso"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/parso@0.8.3",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: parso"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "parso.python.tree.Name,parso.utils.python_bytes_to_unicode,parso.ParserSyntaxError,parso.parse,parso.python.errors.ErrorFinder,parso.pgen2.generator.generate_grammar,parso.python.token.PythonTokenTypes,parso.python.tree.search_ancestor,parso.python.tokenize._get_token_collection,parso.python.pep8,parso.tree.search_ancestor,parso.python.parser.Parser,parso.python.tree.EndMarker,parso.python.diff.DiffParser,parso._compatibility.PermissionError,parso.pgen2.grammar_parser.NFAState,parso.python.tokenize.PythonToken,parso.cache.load_module,parso.tree.Leaf,parso.python.tree.Flow,parso.grammar.load_grammar,parso.tree,parso.normalizer.Rule,parso.parser.ParserSyntaxError,parso.tree.BaseNode,parso.python.tokenize.tokenize,parso._compatibility.utf8_repr,parso.grammar.Grammar,parso.pgen2.generator.ReservedString,parso._compatibility.encoding,parso._compatibility.use_metaclass,parso.normalizer.RefactoringNormalizer,parso.cache.parser_cache,parso.normalizer.NormalizerConfig,parso.tree.Node,parso.file_io.FileIO,parso.python.tree.Scope,parso.file_io,parso.file_io.KnownContentFileIO,parso.utils.split_lines,parso._compatibility.FileNotFoundError,parso.cache.try_to_save_module,parso.split_lines,parso.normalizer.Normalizer,parso.pgen2.generate_grammar,parso.python.prefix.split_prefix,parso.pgen2.grammar_parser.GrammarParser,parso._compatibility.unicode,parso.python.tokenize.tokenize_lines,parso.python.tree,parso.tree.ErrorNode,parso._compatibility.is_pypy,parso.python_bytes_to_unicode,parso.__version__,parso.python.tokenize.BOM_UTF8_STRING,parso.parser.BaseParser,parso._compatibility.scandir,parso.normalizer.Issue,parso.utils.parse_version_string,parso.tree.ErrorLeaf,parso.python.errors.ErrorFinderConfig,parso.python.tokenize.group,parso"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pydoc-topics",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/pydoc-topics@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydoc-topics@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module pydoc-topics"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "pydoc_topics"
+        }
+      ]
+    },
+    {
+      "author": "Daniel McDonald <mcdonadt@colorado.edu>",
+      "group": "",
+      "name": "sublime",
+      "version": "0.1.0",
+      "description": "Submission ninja",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c4de74c75256421ce3514083f3d43fbc681cfa2dcebe332c2da3a671a9fa926b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+          }
+        },
+        {
+          "license": {
+            "id": "CC0-1.0",
+            "url": "https://opensource.org/licenses/CC0-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/sublime@0.1.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://github.com/wasade/sublime"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/sublime@0.1.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: sublime"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "sublime"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sublime-plugin",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/sublime-plugin@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sublime-plugin@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module sublime-plugin"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "sublime_plugin"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/cpickle@latest",
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/django@5.0.1",
+        "pkg:pypi/jedi@0.19.1",
+        "pkg:pypi/mdpopups@latest",
+        "pkg:pypi/mypy-django-plugin@latest",
+        "pkg:pypi/parso@0.8.3",
+        "pkg:pypi/pydoc-topics@latest",
+        "pkg:pypi/sublime@0.1.0",
+        "pkg:pypi/sublime-plugin@latest"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typed-ast@1.5.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycnite@2023.10.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/libcst@1.1.0",
+      "dependsOn": [
+        "pkg:pypi/pyyaml@6.0.1",
+        "pkg:pypi/typing-extensions@4.9.0",
+        "pkg:pypi/typing-inspect@0.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typing-inspect@0.9.0",
+      "dependsOn": [
+        "pkg:pypi/mypy-extensions@1.0.0",
+        "pkg:pypi/typing-extensions@4.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mypy-extensions@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/networkx@3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pydot@2.0.0",
+      "dependsOn": [
+        "pkg:pypi/pyparsing@3.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyparsing@3.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tabulate@0.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/attrs@23.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/importlab@0.8.1",
+      "dependsOn": [
+        "pkg:pypi/networkx@3.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/toml@0.10.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ninja@1.11.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.2",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@2.1.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytype@2024.1.5",
+      "dependsOn": [
+        "pkg:pypi/attrs@23.2.0",
+        "pkg:pypi/importlab@0.8.1",
+        "pkg:pypi/jinja2@3.1.2",
+        "pkg:pypi/libcst@1.1.0",
+        "pkg:pypi/networkx@3.1",
+        "pkg:pypi/ninja@1.11.1.1",
+        "pkg:pypi/pycnite@2023.10.11",
+        "pkg:pypi/pydot@2.0.0",
+        "pkg:pypi/tabulate@0.9.0",
+        "pkg:pypi/toml@0.10.2",
+        "pkg:pypi/typing-extensions@4.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/tomli@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mypy@latest",
+      "dependsOn": [
+        "pkg:pypi/mypy-extensions@1.0.0",
+        "pkg:pypi/tomli@2.0.1",
+        "pkg:pypi/typing-extensions@4.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/isort@4.3.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flake8@3.7.8",
+      "dependsOn": [
+        "pkg:pypi/entrypoints@0.3",
+        "pkg:pypi/mccabe@0.6.1",
+        "pkg:pypi/pycodestyle@2.5.0",
+        "pkg:pypi/pyflakes@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyflakes@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/entrypoints@0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mccabe@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycodestyle@2.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flake8-pyi@19.3.0",
+      "dependsOn": [
+        "pkg:pypi/attrs@23.2.0",
+        "pkg:pypi/flake8@3.7.8",
+        "pkg:pypi/pyflakes@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/flake8-bugbear@19.8.0",
+      "dependsOn": [
+        "pkg:pypi/attrs@23.2.0",
+        "pkg:pypi/flake8@3.7.8"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/appdirs@1.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@8.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/black@19.3b0",
+      "dependsOn": [
+        "pkg:pypi/appdirs@1.4.4",
+        "pkg:pypi/attrs@23.2.0",
+        "pkg:pypi/click@8.1.7",
+        "pkg:pypi/toml@0.10.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cpickle@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/colorama@0.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@5.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jedi@0.19.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mdpopups@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mypy-django-plugin@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/parso@0.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pydoc-topics@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sublime@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sublime-plugin@latest",
+      "dependsOn": []
+    }
+  ]
+}

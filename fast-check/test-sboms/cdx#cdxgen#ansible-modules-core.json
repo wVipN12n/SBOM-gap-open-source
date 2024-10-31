@@ -1,0 +1,2628 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:4fcc0935-0002-480d-a829-74caac33e637",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-10T20:38:33.267Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "pyyaml",
+      "version": "6.0.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/pyyaml@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-IRUGPM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "jinja2",
+      "version": "3.1.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/jinja2@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jinja2@3.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-IRUGPM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "MarkupSafe",
+      "version": "2.1.3",
+      "scope": "optional",
+      "purl": "pkg:pypi/markupsafe@2.1.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/markupsafe@2.1.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/test/utils/shippable/docs-requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/test/utils/shippable/docs-requirements.txt"
+        }
+      ]
+    },
+    {
+      "author": "Andy Dustman <farcepest@gmail.com>",
+      "group": "",
+      "name": "mysql-python",
+      "version": "1.2.5",
+      "description": "Python interface to MySQL",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ab22d1322099098730a57fd59d610f60738f95a1cb68dacca2d1c47cb0cbe8ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU General Public License (GPL)"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/mysql-python@1.2.5",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/farcepest/MySQLdb1"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/mysql-python@1.2.5",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: mysql-python"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "MySQLdb"
+        }
+      ]
+    },
+    {
+      "author": "Ansible, Inc. <info@ansible.com>",
+      "group": "",
+      "name": "ansible",
+      "version": "9.1.0",
+      "description": "Radically simple IT automation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bd88f16ca4b4dadfec78723f982c0f04e5481c6be497ccb43ea3b40fded39126"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU General Public License v3 or later (GPLv3+)"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later",
+            "url": "https://opensource.org/licenses/GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/ansible@9.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://ansible.com/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/ansible@9.1.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: ansible"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "ansible.module_utils.sros.NetworkError,ansible.module_utils.dellos10.get_sublevel_config,ansible.module_utils.netcfg.dumps,ansible.module_utils.netcli.Command,ansible.module_utils.ios,ansible.module_utils.basic.get_exception,ansible.module_utils.known_hosts.add_git_host_key,ansible.module_utils.six.get_function_code,ansible.module_utils.mysql.*,ansible.module_utils.ec2.AWSRetry,ansible.module_utils.dellos6.get_sublevel_config,ansible.module_utils.rax.*,ansible.module_utils._text.to_bytes,ansible.module_utils.facts.*,ansible.module_utils.iosxr.NetworkModule,ansible.module_utils.basic.AnsibleModule,ansible.module_utils.six.iteritems,ansible.module_utils.netcli.AddCommandError,ansible.module_utils.netcfg.NetworkConfig,ansible.module_utils.sros.NetworkModule,ansible.module_utils.docker_common.*,ansible.module_utils.six,ansible.module_utils.openswitch.NetworkModule,ansible.module_utils.dellos10.get_config,ansible.module_utils.dellos6.get_config,ansible.module_utils.gce.*,ansible.module_utils.ismount.ismount,ansible.module_utils.dellos9.get_sublevel_config,ansible.module_utils._text.to_text,ansible.module_utils.service.sysv_is_enabled,ansible.module_utils.dellos9.get_config,ansible.module_utils.vyos,ansible.module_utils.basic.get_module_path,ansible.module_utils.six.moves.urllib.parse.urlparse,ansible.module_utils.service.sysv_exists,ansible.module_utils.dellos9,ansible.module_utils.nxos.NetworkModule,ansible.module_utils.network.get_exception,ansible.module_utils.database.*,ansible.module_utils.basic.format_attributes,ansible.module_utils.vyos.NetworkModule,ansible.module_utils.ios.NetworkError,ansible.module_utils.basic.get_platform,ansible.module_utils.junos.xml_to_string,ansible.module_utils.dellos6,ansible.module_utils._text.to_native,ansible.module_utils.openswitch.HAS_OPS,ansible.module_utils.six.PY3,ansible.module_utils.ec2.*,ansible.module_utils.six.moves.urllib.parse.urlsplit,ansible.module_utils.network.Command,ansible.module_utils.netcfg.ConfigLine,ansible.module_utils.nxos.get_module,ansible.module_utils.urls.fetch_url,ansible.module_utils.six.string_types,ansible.module_utils.openswitch,ansible.module_utils.dellos6.Dellos6NetworkConfig,ansible.module_utils.iosxr,ansible.module_utils.eos.NetworkModule,ansible.module_utils.ec2,ansible.module_utils.openswitch.NetworkError,ansible.module_utils.network.NetworkModule,ansible.module_utils.netcli.FailedConditionalError,ansible.module_utils.eos,ansible.module_utils.redhat.*,ansible.module_utils.network.NetworkError,ansible.module_utils.netcli.CommandRunner,ansible.module_utils.six.b,ansible.module_utils.urls.*,ansible.module_utils.six.moves.zip,ansible.module_utils.netcli.FailedConditionsError,ansible.module_utils.netcli.AddConditionError,ansible.module_utils.openstack.*,ansible.module_utils.basic.*,ansible.module_utils.nxos.NetworkError,ansible.module_utils.basic.is_executable,ansible.module_utils.urls.url_argument_spec,ansible.module_utils.pycompat24.get_exception,ansible.module_utils.eos.NetworkError,ansible.module_utils.shell.ShellError,ansible.module_utils.junos,ansible.module_utils.vyos.NetworkError,ansible.module_utils.azure_rm_common.*,ansible.module_utils.ios.NetworkModule,ansible.module_utils.junos.xml_to_json,ansible.module_utils.nxos,ansible.module_utils.iosxr.NetworkError,ansible.module_utils.dellos10,ansible.module_utils.service.fail_if_missing"
+        }
+      ]
+    },
+    {
+      "author": "Michael Vogt <mvo@ubuntu.com>",
+      "group": "",
+      "name": "apt",
+      "version": "0.7.8",
+      "description": "Python bindings for libapt.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU General Public License v2 (GPLv2)"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/apt@0.7.8",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://launchpad.net/python-apt/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/apt@0.7.8",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: apt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "apt,apt.debfile"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "apt-pkg",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/apt-pkg@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/apt-pkg@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module apt-pkg"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "apt_pkg"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "python-apt-repo",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/python-apt-repo@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-apt-repo@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module python-apt-repo"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "aptsources.distro"
+        }
+      ]
+    },
+    {
+      "author": "Microsoft Corporation <azpysdkhelp@microsoft.com>",
+      "group": "",
+      "name": "azure-storage",
+      "version": "0.37.0",
+      "description": "Microsoft Azure Storage SDK for Python",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8c7b0e3867385172013aa396bc8d661145c029ede6515a467f299e020584bcea"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/azure-storage@0.37.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Azure/azure-sdk-for-python"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/azure-storage@0.37.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: azure-storage"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "azure.mgmt.compute.models.SshConfiguration,azure.servicemanagement.LinuxConfigurationSet,azure.servicemanagement.ConfigurationSetInputEndpoint,azure.WindowsAzureMissingResourceError,azure.mgmt.compute.models.OSProfile,azure.mgmt.network.models.network_management_client_enums.SecurityRuleAccess,azure.servicemanagement.Listener,azure.mgmt.compute.models.compute_management_client_enums.VirtualMachineSizeTypes,azure.servicemanagement.PublicKeys,azure.common.AzureMissingResourceHttpError,azure.mgmt.storage.models.storage_management_client_enums.SkuTier,azure.mgmt.network.models.VirtualNetwork,azure.mgmt.network.models.Subnet,azure.mgmt.storage.models.Sku,azure.mgmt.storage.models.StorageAccountUpdateParameters,azure.servicemanagement.ConfigurationSetInputEndpoints,azure.mgmt.network.models.NetworkInterfaceIPConfiguration,azure.mgmt.network.models.PublicIPAddress,azure.mgmt.compute.models.VirtualMachine,azure.servicemanagement.OSVirtualHardDisk,azure.mgmt.compute.models.OSDisk,azure.mgmt.storage.models.storage_management_client_enums.Kind,azure.mgmt.storage.models.storage_management_client_enums.ProvisioningState,azure.mgmt.compute.models.LinuxConfiguration,azure.mgmt.storage.models.StorageAccountCreateParameters,azure.mgmt.compute.models.NetworkInterfaceReference,azure.mgmt.network.models.network_management_client_enums.SecurityRuleProtocol,azure.mgmt.storage.models.CustomDomain,azure.servicemanagement.WindowsConfigurationSet,azure.mgmt.network.models.DhcpOptions,azure.common.AzureException,azure.mgmt.compute.models.NetworkProfile,azure.mgmt.compute.models.ImageReference,azure.mgmt.network.models.AddressSpace,azure.mgmt.compute.models.compute_management_client_enums.DiskCreateOptionTypes,azure.common.AzureHttpError,azure.mgmt.compute.models.StorageProfile,azure.mgmt.network.models.NetworkInterface,azure.mgmt.network.models.NetworkSecurityGroup,azure.WindowsAzureError,azure.mgmt.network.models.SecurityRule,azure,azure.servicemanagement.PublicKey,azure.storage.blob.models.ContentSettings,azure.servicemanagement.SSH,azure.mgmt.compute.models.VirtualHardDisk,azure.mgmt.network.models.network_management_client_enums.SecurityRuleDirection,azure.mgmt.compute.models.HardwareProfile,azure.mgmt.resource.resources.models.ResourceGroup,azure.mgmt.storage.models.storage_management_client_enums.SkuName,azure.servicemanagement.ServiceManagementService,azure.mgmt.compute.models.SshPublicKey,azure.storage.cloudstorageaccount.CloudStorageAccount,azure.mgmt.network.models.PublicIPAddressDnsSettings"
+        }
+      ]
+    },
+    {
+      "author": "Mitch Garnaat <mitch@garnaat.com>",
+      "group": "",
+      "name": "boto",
+      "version": "2.49.0",
+      "description": "Amazon Web Services Library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "147758d41ae7240dc989f0039f27da8ca0d53734be0eb869ef16e3adcfa462e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/boto@2.49.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/boto/boto/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/boto@2.49.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: boto"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "boto.s3.connection.S3Connection,boto.route53.Route53Connection,boto.rds2,boto.iam,boto.ec2.autoscale.AutoScalingGroup,boto.ec2.autoscale.ScalingPolicy,boto,boto.ec2.cloudwatch.MetricAlarm,boto.ec2,boto.regioninfo.RegionInfo,boto.ec2.autoscale.Tag,boto.s3.connection.Location,boto.route53.record.ResourceRecordSets,boto.elasticache.layer1.ElastiCacheConnection,boto.rds,boto.route53.status.Status,boto.ec2.autoscale.LaunchConfiguration,boto.ec2.securitygroup.SecurityGroup,boto.ec2.tag.Tag,boto.ec2.elb.attributes,boto.ec2.cloudwatch.CloudWatchConnection,boto.ec2.elb,boto.ec2.blockdevicemapping.BlockDeviceType,boto.ec2.autoscale,boto.vpc,boto.route53.record.Record,boto.route53,boto.ec2.cloudwatch,boto.vpc.VPCConnection,boto.s3.acl.CannedACLStrings,boto.exception.EC2ResponseError,boto.ec2.autoscale.AutoScaleConnection,boto.s3.connection.OrdinaryCallingFormat,boto.exception.BotoServerError,boto.ec2.elb.healthcheck.HealthCheck,boto.ec2.blockdevicemapping.BlockDeviceMapping"
+        }
+      ]
+    },
+    {
+      "author": "Amazon Web Services",
+      "group": "",
+      "name": "boto3",
+      "version": "1.34.16",
+      "description": "The AWS SDK for Python",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "23d2ad6111ab8b734b11f01bb158bea633b2901dcdd4f8e255154051d9138256"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/boto3@1.34.16",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/boto/boto3"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/boto3@1.34.16",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: boto3"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "boto3"
+        }
+      ]
+    },
+    {
+      "author": "Amazon Web Services",
+      "group": "",
+      "name": "botocore",
+      "version": "1.34.16",
+      "description": "Low-level, data-driven core of boto 3.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e59f3340673abd31e042b494a4bca96e55d232f7d3f8222a40a6273515e25891"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/botocore@1.34.16",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/boto/botocore"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/botocore@1.34.16",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: botocore"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "botocore"
+        }
+      ]
+    },
+    {
+      "author": "Docker, Inc.",
+      "group": "",
+      "name": "docker-compose",
+      "version": "1.29.2",
+      "description": "Multi-container orchestration for Docker",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8d5589373b35c8d3b1c8c1182c6e4a4ff14bffa3dd0b605fcd08f73c94cef809"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/docker-compose@1.29.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.docker.com/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/docker-compose@1.29.2",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: docker-compose"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "compose.service.ConvergenceStrategy,compose.const.DEFAULT_TIMEOUT,compose.cli.main.image_type_from_opt,compose.project.ProjectError,compose.cli.main.convergence_strategy_from_opts,compose.service.NoSuchImageError,compose.cli.main.build_action_from_opts,compose.__version__,compose.cli.command.project_from_options"
+        }
+      ]
+    },
+    {
+      "author": "Joffrey F <joffrey@docker.com>",
+      "group": "",
+      "name": "docker-py",
+      "version": "1.10.6",
+      "description": "Python client for Docker.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "35b506e95861914fa5ad57a6707e3217b4082843b883be246190f57013948aba"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "UNKNOWN"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/docker-py@1.10.6",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/docker/docker-py/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/docker-py@1.10.6",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: docker-py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "docker.client.APIError,docker.auth.auth.resolve_repository_name,docker.auth,docker.client,docker.errors,docker.errors.APIError,docker.utils.utils.parse_repository_tag,docker.constants,docker.utils.types.Ulimit,docker.utils"
+        }
+      ]
+    },
+    {
+      "author": "Vincent Viallet <vincent@devo.ps>",
+      "group": "",
+      "name": "dopy",
+      "version": "0.3.7",
+      "description": "Python client for the Digital Ocean API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8d1a7a15ef5711220ee9fc3fd489e738bb365cdad042c4f791cd5c16f2dbf9fd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/dopy@0.3.7",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/devo-ps/dopy"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/dopy@0.3.7",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: dopy"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "dopy.manager.DoError,dopy,dopy.manager.DoManager"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "glanceclient",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/glanceclient@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/glanceclient@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module glanceclient"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "glanceclient"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "jnpr",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/jnpr@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jnpr@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module jnpr"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "jnpr.junos.utils.sw.SW"
+        }
+      ]
+    },
+    {
+      "author": "Stefan Kögl <stefan@skoegl.net>",
+      "group": "",
+      "name": "jsonpatch",
+      "version": "1.33",
+      "description": "Apply JSON-Patches (RFC 6902)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0ae28c0cd062bbd8b8ecc26d7d164fbbea9652a1a3693f3b956c1eae5145dade"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/jsonpatch@1.33",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/stefankoegl/python-json-patch"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/jsonpatch@1.33",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: jsonpatch"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "jsonpatch"
+        }
+      ]
+    },
+    {
+      "author": "Google, Inc. <keyczar-discuss@googlegroups.com>",
+      "group": "",
+      "name": "python-keyczar",
+      "version": "0.716",
+      "description": "Toolkit for safe and simple cryptography",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f9b614112dc8248af3d03b989da4aeca70e747d32fe7e6fce9512945365e3f83"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/python-keyczar@0.716",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.keyczar.org/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-keyczar@0.716",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: python-keyczar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "keyczar.keys.AesKey"
+        }
+      ]
+    },
+    {
+      "author": "OpenStack <openstack-discuss@lists.openstack.org>",
+      "group": "",
+      "name": "python-keystoneclient",
+      "version": "5.2.0",
+      "description": "Client Library for OpenStack Identity",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "03293c2f5b96d32cfe04ab0d2d109c484dcd0f4d071a42543387efd129e9248e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/python-keystoneclient@5.2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://docs.openstack.org/python-keystoneclient/latest/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-keystoneclient@5.2.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: python-keystoneclient"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "keystoneclient.v2_0.client"
+        }
+      ]
+    },
+    {
+      "author": "Apache Software Foundation <dev@libcloud.apache.org>",
+      "group": "",
+      "name": "apache-libcloud",
+      "version": "3.8.0",
+      "description": "A standard Python library that abstracts away differences among multiple cloud provider APIs. For more information and documentation, please see https://libcloud.apache.org",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "de65a8bd946f6532830f20a83f2eae2fa056f05a674fad30afe877cb78df6050"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "Apache License (2.0)"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/apache-libcloud@3.8.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/apache-libcloud@3.8.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: apache-libcloud"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "libcloud,libcloud.compute.providers.get_driver,libcloud.loadbalancer.providers.get_driver,libcloud.common.google.ResourceExistsError,libcloud.common.google.ResourceInUseError,libcloud.compute.types.Provider,libcloud.common.google.GoogleBaseError,libcloud.compute.drivers.gce.GCEAddress,libcloud.loadbalancer.types.Provider,libcloud.common.google.ResourceNotFoundError,libcloud.common.google.QuotaExceededError"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "libxml2",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/libxml2@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/libxml2@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module libxml2"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "libxml2"
+        }
+      ]
+    },
+    {
+      "author": "George Hickman <george@ghickman.co.uk>",
+      "group": "",
+      "name": "linode",
+      "version": "0.4",
+      "description": "Python wrapper of the Linode API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d98c0639d641f7923df3e228353ceb40999269dc5b2cce5b7538c24fb98dbc9c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/linode@0.4",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://github.com/ghickman/linode"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/linode@0.4",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: linode"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "linode.api"
+        }
+      ]
+    },
+    {
+      "author": "lxml dev team <lxml-dev@lxml.de>",
+      "group": "",
+      "name": "lxml",
+      "version": "5.1.0",
+      "description": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "704f5572ff473a5f897745abebc6df40f22d4133c1e0a1f124e4f2bd3330ff7e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/lxml@5.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://lxml.de/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/lxml@5.1.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: lxml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "lxml.etree"
+        }
+      ]
+    },
+    {
+      "author": "Microsoft Corporation <azpysdkhelp@microsoft.com>",
+      "group": "",
+      "name": "msrestazure",
+      "version": "0.6.4",
+      "description": "AutoRest swagger generator Python client runtime. Azure-specific module.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3de50f56147ef529b31e099a982496690468ecef33f0544cb0fa0cfe1e1de5b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/msrestazure@0.6.4",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Azure/msrestazure-for-python"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/msrestazure@0.6.4",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: msrestazure"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "msrestazure.azure_exceptions.CloudError"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "neutronclient",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/neutronclient@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/neutronclient@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module neutronclient"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "neutronclient.neutron.client"
+        }
+      ]
+    },
+    {
+      "author": "OpenStack <openstack-discuss@lists.openstack.org>",
+      "group": "",
+      "name": "python-novaclient",
+      "version": "18.4.0",
+      "description": "Client library for OpenStack Compute API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "15bce541372b3bc6c4bb95c0a89d7e3f6d7d135d51838c1304b2801a5c0716f1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/python-novaclient@18.4.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://docs.openstack.org/python-novaclient/latest"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-novaclient@18.4.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: python-novaclient"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "novaclient.v1_1.client,novaclient.exceptions,novaclient.utils,novaclient.v1_1.floating_ips"
+        }
+      ]
+    },
+    {
+      "author": "OpenStack <openstack-discuss@lists.openstack.org>",
+      "group": "",
+      "name": "os-client-config",
+      "version": "2.1.0",
+      "description": "OpenStack Client Configuation Library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "27bdc338f8a872814dc77ff3427844b4ea483cf95796571273aaf50dd1faf770"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/os-client-config@2.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://docs.openstack.org/os-client-config/latest"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/os-client-config@2.1.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: os-client-config"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "os_client_config,os_client_config.exceptions"
+        }
+      ]
+    },
+    {
+      "author": "Jeff Forcier <jeff@bitprophet.org>",
+      "group": "",
+      "name": "paramiko",
+      "version": "3.4.0",
+      "description": "SSH2 protocol library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "43f0b51115a896f9c00f59618023484cb3a14b98bbceab43394a39c6739b7ee7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Library or Lesser General Public License (LGPL)"
+          }
+        },
+        {
+          "license": {
+            "name": "LGPL"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/paramiko@3.4.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://paramiko.org"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/paramiko@3.4.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: paramiko"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "paramiko"
+        }
+      ]
+    },
+    {
+      "author": "Eli Collins <elic@assurancetechnologies.com>",
+      "group": "",
+      "name": "passlib",
+      "version": "1.7.4",
+      "description": "comprehensive password hashing framework supporting over 30 schemes",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aa6bca462b8d8bda89c70b382f0c298a20b5560af6cbfa2dce410c0a2fb669f1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/passlib@1.7.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://passlib.readthedocs.io"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/passlib@1.7.4",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: passlib"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "passlib.context.CryptContext,passlib.apache.HtpasswdFile,passlib.hash.postgres_md5,passlib,passlib.apache.htpasswd_context"
+        }
+      ]
+    },
+    {
+      "author": "Giampaolo Rodola <g.rodola@gmail.com>",
+      "group": "",
+      "name": "psutil",
+      "version": "5.9.7",
+      "description": "Cross-platform lib for process and system monitoring in Python.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0bd41bf2d1463dfa535942b2a8f0e958acf6607ac0be52265ab31f7923bcd5e6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/psutil@5.9.7",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/giampaolo/psutil"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/psutil@5.9.7",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: psutil"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "psutil"
+        }
+      ]
+    },
+    {
+      "author": "Federico Di Gregorio <fog@initd.org>",
+      "group": "",
+      "name": "psycopg2",
+      "version": "2.9.9",
+      "description": "psycopg2 - Python-PostgreSQL Database Adapter",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "38a8dcc6856f569068b47de286b472b7c473ac7977243593a288ebce0dc89516"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Library or Lesser General Public License (LGPL)"
+          }
+        },
+        {
+          "license": {
+            "name": "LGPL with exceptions"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/psycopg2@2.9.9",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://psycopg.org/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/psycopg2@2.9.9",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: psycopg2"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "psycopg2,psycopg2.extensions,psycopg2.extras"
+        }
+      ]
+    },
+    {
+      "author": "Kjetil Jacobsen, Markus F.X.J. Oberhumer, Oleg Pudeyev <kjetilja@gmail.com, markus@oberhumer.com, oleg@bsdpower.com>",
+      "group": "",
+      "name": "pycurl",
+      "version": "7.45.2",
+      "description": "PycURL -- A Python Interface To The cURL library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5730590be0271364a5bddd9e245c9cc0fb710c4cbacbdd95264a3122d23224ca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Library or Lesser General Public License (LGPL)"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license": {
+            "name": "LGPL/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pycurl@7.45.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://pycurl.io/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycurl@7.45.2",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: pycurl"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "pycurl"
+        }
+      ]
+    },
+    {
+      "author": "Rackspace",
+      "group": "",
+      "name": "pyrax",
+      "version": "1.10.0",
+      "description": "Python language bindings for OpenStack Clouds.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e70c323e431805840773a550797c2b81725194040b1cdbe12ee4053fbaa2fa6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pyrax@1.10.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/pycontribs/pyrax"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyrax@1.10.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: pyrax"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "pyrax"
+        }
+      ]
+    },
+    {
+      "author": "Sebastian Tello <argos83@gmail.com>",
+      "group": "",
+      "name": "pysphere",
+      "version": "0.1.8",
+      "description": "Python API for interacting with the vSphere Web Services SDK",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pysphere@0.1.8",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://pysphere.googlecode.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pysphere@0.1.8",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: pysphere"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "pysphere.VIProperty,pysphere.VIException,pysphere.resources.VimService_services,pysphere.VIServer,pysphere.VIApiException,pysphere.vi_task.VITask,pysphere.MORTypes,pysphere.FaultTypes"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "quantumclient",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/quantumclient@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/quantumclient@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module quantumclient"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "quantumclient.quantum.client"
+        }
+      ]
+    },
+    {
+      "author": "Kenneth Reitz <me@kennethreitz.org>",
+      "group": "",
+      "name": "requests",
+      "version": "2.31.0",
+      "description": "Python HTTP for Humans.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.31.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://requests.readthedocs.io"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: requests"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "requests.exceptions.RequestException"
+        }
+      ]
+    },
+    {
+      "author": "Red Hat <hello@packit.dev>",
+      "group": "",
+      "name": "rpm",
+      "version": "0.1.0",
+      "description": "Shim RPM module for use in virtualenvs.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3664381f6f3cf050e97f49619cf57abacf3e77d68ddd3bfea3e7459c7c5f03f9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/rpm@0.1.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/packit/rpm-shim"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/rpm@0.1.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: rpm"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "rpm"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "rpmutils",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/rpmutils@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/rpmutils@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module rpmutils"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "rpmUtils.miscutils.splitFilename"
+        }
+      ]
+    },
+    {
+      "author": "James Bardin <j.bardin@gmail.com>",
+      "group": "",
+      "name": "scp",
+      "version": "0.14.5",
+      "description": "scp module for paramiko",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d224535dd8ed00294f52b0e0e18fde7a6fb7a3d06b97ede9e3f750fa7bf75c09"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Library or Lesser General Public License (LGPL)"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later",
+            "url": "https://opensource.org/licenses/LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/scp@0.14.5",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/jbardin/scp.py"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/scp@0.14.5",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: scp"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "scp.SCPClient"
+        }
+      ]
+    },
+    {
+      "author": "Sorin Sbarnea <sorin.sbarnea@gmail.com>",
+      "group": "",
+      "name": "selinux",
+      "version": "0.3.0",
+      "description": "shim selinux module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ecf7add45c939e9dda682c390a2cd0a845c94a4793a2cce9e8870d4ee9501f99"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/selinux@0.3.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/pycontribs/selinux"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/selinux@0.3.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: selinux"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "selinux"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "semanage",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/semanage@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/semanage@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module semanage"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "semanage"
+        }
+      ]
+    },
+    {
+      "author": "OpenStack <openstack-discuss@lists.openstack.org>",
+      "group": "",
+      "name": "shade",
+      "version": "1.33.0",
+      "description": "Simple client library for interacting with OpenStack clouds",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "88c3ae7e3fd29d309c0f414a80921de113a338ed37edbe175b987593396029e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/shade@1.33.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://docs.openstack.org/shade/latest"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/shade@1.33.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: shade"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "shade.meta,shade"
+        }
+      ]
+    },
+    {
+      "author": "Bob Ippolito <bob@redivi.com>",
+      "group": "",
+      "name": "simplejson",
+      "version": "3.19.2",
+      "description": "Simple, fast, extensible JSON encoder/decoder for Python",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3471e95110dcaf901db16063b2e40fb394f8a9e99b3fe9ee3acc6f6ef72183a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Academic Free License (AFL)"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/simplejson@3.19.2",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/simplejson/simplejson"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/simplejson@3.19.2",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: simplejson"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "simplejson"
+        }
+      ]
+    },
+    {
+      "author": "Benjamin Peterson <benjamin@python.org>",
+      "group": "",
+      "name": "six",
+      "version": "1.16.0",
+      "description": "Python 2 and 3 compatibility utilities",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/six@1.16.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/benjaminp/six"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: six"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "six"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "up2date-client",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/up2date-client@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/up2date-client@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module up2date-client"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "up2date_client.config,up2date_client"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "urlparse",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/urlparse@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/urlparse@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module urlparse"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "urlparse.urlparse,urlparse"
+        }
+      ]
+    },
+    {
+      "author": "Fredrik Lundh <fredrik@pythonware.com>",
+      "group": "",
+      "name": "xmlrpclib",
+      "version": "1.0.1",
+      "description": "Stand-alone distribution of xmlrpclib.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Python (BSD type)"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/xmlrpclib@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/xmlrpclib@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: xmlrpclib"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "xmlrpclib"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "yum",
+      "version": "latest",
+      "scope": "required",
+      "purl": "pkg:pypi/yum@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/yum@latest",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0,
+              "value": "Module yum"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "yum.misc.find_ts_remaining,yum.misc.find_unfinished_transactions,yum"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/mysql-python@1.2.5",
+        "pkg:pypi/ansible@9.1.0",
+        "pkg:pypi/apt@0.7.8",
+        "pkg:pypi/apt-pkg@latest",
+        "pkg:pypi/python-apt-repo@latest",
+        "pkg:pypi/azure-storage@0.37.0",
+        "pkg:pypi/boto@2.49.0",
+        "pkg:pypi/boto3@1.34.16",
+        "pkg:pypi/botocore@1.34.16",
+        "pkg:pypi/docker-compose@1.29.2",
+        "pkg:pypi/docker-py@1.10.6",
+        "pkg:pypi/dopy@0.3.7",
+        "pkg:pypi/glanceclient@latest",
+        "pkg:pypi/jnpr@latest",
+        "pkg:pypi/jsonpatch@1.33",
+        "pkg:pypi/python-keyczar@0.716",
+        "pkg:pypi/python-keystoneclient@5.2.0",
+        "pkg:pypi/apache-libcloud@3.8.0",
+        "pkg:pypi/libxml2@latest",
+        "pkg:pypi/linode@0.4",
+        "pkg:pypi/lxml@5.1.0",
+        "pkg:pypi/msrestazure@0.6.4",
+        "pkg:pypi/neutronclient@latest",
+        "pkg:pypi/python-novaclient@18.4.0",
+        "pkg:pypi/os-client-config@2.1.0",
+        "pkg:pypi/paramiko@3.4.0",
+        "pkg:pypi/passlib@1.7.4",
+        "pkg:pypi/psutil@5.9.7",
+        "pkg:pypi/psycopg2@2.9.9",
+        "pkg:pypi/pycurl@7.45.2",
+        "pkg:pypi/pyrax@1.10.0",
+        "pkg:pypi/pysphere@0.1.8",
+        "pkg:pypi/quantumclient@latest",
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/rpm@0.1.0",
+        "pkg:pypi/rpmutils@latest",
+        "pkg:pypi/scp@0.14.5",
+        "pkg:pypi/selinux@0.3.0",
+        "pkg:pypi/semanage@latest",
+        "pkg:pypi/shade@1.33.0",
+        "pkg:pypi/simplejson@3.19.2",
+        "pkg:pypi/six@1.16.0",
+        "pkg:pypi/up2date-client@latest",
+        "pkg:pypi/urlparse@latest",
+        "pkg:pypi/xmlrpclib@1.0.1",
+        "pkg:pypi/yum@latest"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.2",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@2.1.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mysql-python@1.2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ansible@9.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/apt@0.7.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/apt-pkg@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-apt-repo@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/azure-storage@0.37.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/boto@2.49.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/boto3@1.34.16",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/botocore@1.34.16",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/docker-compose@1.29.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/docker-py@1.10.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/dopy@0.3.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/glanceclient@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jnpr@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jsonpatch@1.33",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-keyczar@0.716",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-keystoneclient@5.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/apache-libcloud@3.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/libxml2@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/linode@0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/lxml@5.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/msrestazure@0.6.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/neutronclient@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-novaclient@18.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/os-client-config@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/paramiko@3.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/passlib@1.7.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/psutil@5.9.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/psycopg2@2.9.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycurl@7.45.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyrax@1.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pysphere@0.1.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/quantumclient@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.31.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rpm@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rpmutils@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/scp@0.14.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/selinux@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/semanage@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/shade@1.33.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/simplejson@3.19.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/up2date-client@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urlparse@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/xmlrpclib@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/yum@latest",
+      "dependsOn": []
+    }
+  ]
+}

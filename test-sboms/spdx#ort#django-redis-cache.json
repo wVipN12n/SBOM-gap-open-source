@@ -1,0 +1,171 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.2",
+    "creationInfo": {
+        "created": "2024-03-12T04:53:36Z",
+        "creators": [
+            "Tool: ort-17.1.1-021.sha.4590097"
+        ],
+        "licenseListVersion": "3.22"
+    },
+    "name": "Unnamed document",
+    "dataLicense": "CC0-1.0",
+    "documentNamespace": "spdx://1f0d5395-4d84-4150-a62a-bc17afdedbec",
+    "documentDescribes": [
+        "SPDXRef-Project-PIP-django-redis-cache-with-requirements-requirements.txt-3.0.1",
+        "SPDXRef-Project-PIP-requirements-dev.txt"
+    ],
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Project-PIP-django-redis-cache-with-requirements-requirements.txt-3.0.1",
+            "copyrightText": "Copyright (c) 2020 Sean Bleier\ncopyright 2015 Sean Bleier",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "homepage": "http://github.com/sebleier/django-redis-cache/",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "BSD-3-Clause AND NOASSERTION",
+            "name": "django-redis-cache-with-requirements-requirements.txt",
+            "summary": "NONE",
+            "versionInfo": "3.0.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Project-PIP-requirements-dev.txt",
+            "copyrightText": "Copyright (c) 2020 Sean Bleier\ncopyright 2015 Sean Bleier",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "homepage": "NONE",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "requirements-dev.txt",
+            "summary": "NONE"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-PyPI-redis-3.5.3",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "432b788c4530cfe16d8d943a09d40ca6c16149727e4afe8c2c9d5580c59d9f24"
+                }
+            ],
+            "copyrightText": "Copyright (c) 2012 Andy McCurdy",
+            "downloadLocation": "https://files.pythonhosted.org/packages/a7/7c/24fb0511df653cf1a5d938d8f5d19802a88cef255706fdda242ff97e91b7/redis-3.5.3-py2.py3-none-any.whl",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/redis@3.5.3"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/andymccurdy/redis-py",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "MIT",
+            "name": "redis",
+            "summary": "Python client for Redis key-value store",
+            "versionInfo": "3.5.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-PyPI-redis-3.5.3-vcs",
+            "copyrightText": "Copyright (c) 2012 Andy McCurdy",
+            "downloadLocation": "git+https://github.com/andymccurdy/redis-py.git@2c9f41f46991f94f0626598600d1023d4e12f0bc",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/redis@3.5.3"
+                }
+            ],
+            "filesAnalyzed": true,
+            "hasFiles": [
+                "SPDXRef-File-1",
+                "SPDXRef-File-2"
+            ],
+            "homepage": "https://github.com/andymccurdy/redis-py",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "MIT",
+            "licenseInfoFromFiles": [
+                "MIT"
+            ],
+            "name": "redis",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "0f9611112be26d35af34898efcadefdd84872743"
+            },
+            "summary": "Python client for Redis key-value store",
+            "versionInfo": "3.5.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-PyPI-redis-3.5.3-source-artifact",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0e7e0cfca8660dea8b7d5cd8c4f6c5e29e11f31158c0b0ae91a397f00e5a05a2"
+                }
+            ],
+            "copyrightText": "Copyright (c) 2012 Andy McCurdy",
+            "downloadLocation": "https://files.pythonhosted.org/packages/b3/17/1e567ff78c83854e16b98694411fe6e08c3426af866ad11397cddceb80d3/redis-3.5.3.tar.gz",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/redis@3.5.3"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/andymccurdy/redis-py",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "MIT",
+            "name": "redis",
+            "summary": "Python client for Redis key-value store",
+            "versionInfo": "3.5.3"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-1",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a4b61fde3ceaed3091f9f7ac886713a60beef947"
+                }
+            ],
+            "copyrightText": "Copyright (c) 2012 Andy McCurdy",
+            "fileName": "LICENSE",
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "MIT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-2",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0f4424768089c772699d1af88c55e2d974bdeda1"
+                }
+            ],
+            "copyrightText": "NONE",
+            "fileName": "setup.cfg",
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "MIT"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Package-PyPI-redis-3.5.3",
+            "relationshipType": "GENERATED_FROM",
+            "relatedSpdxElement": "SPDXRef-Package-PyPI-redis-3.5.3-source-artifact"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-PyPI-redis-3.5.3",
+            "relationshipType": "GENERATED_FROM",
+            "relatedSpdxElement": "SPDXRef-Package-PyPI-redis-3.5.3-vcs"
+        },
+        {
+            "spdxElementId": "SPDXRef-Project-PIP-django-redis-cache-with-requirements-requirements.txt-3.0.1",
+            "relationshipType": "DEPENDS_ON",
+            "relatedSpdxElement": "SPDXRef-Package-PyPI-redis-3.5.3"
+        }
+    ]
+}

@@ -1,0 +1,513 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:69bbae25-a2f1-4bba-a262-1b7dda4f0b1d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-10T20:36:41.540Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "author": "Gustavo Niemeyer <gustavo@niemeyer.net>",
+      "group": "",
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "description": "Extensions to the standard Python datetime module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "name": "Dual License"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/python-dateutil@2.8.2",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/dateutil/dateutil"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dateutil@2.8.2",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: python-dateutil"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "dateutil.parser,dateutil.rrule.TU,dateutil.rrule.DAILY,dateutil.rrule.WEEKLY,dateutil.rrule.MINUTELY,dateutil.rrule.FR,dateutil.rrule.HOURLY,dateutil.rrule.MONTHLY,dateutil.rrule.SU,dateutil.rrule.YEARLY,dateutil.rrule.SA,dateutil.rrule.SECONDLY,dateutil.rrule.WE,dateutil.rrule,dateutil.rrule.MO,dateutil.rrule.TH"
+        }
+      ]
+    },
+    {
+      "author": "Django Software Foundation <foundation@djangoproject.com>",
+      "group": "",
+      "name": "django",
+      "version": "5.0.1",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f47a37a90b9bbe2c8ec360235192c7fddfdc832206fcf618bb849b39256affc1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/django@5.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.djangoproject.com/"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django@5.0.1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: django"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "django.utils.timezone,django.views.generic.list.ListView,django.http.JsonResponse,django.template,django.utils.translation.gettext,django.http.HttpResponseNotFound,django.contrib.contenttypes.models.ContentType,django.contrib.syndication.views.FeedDoesNotExist,django.views.decorators.http.require_POST,django.utils.dates.WEEKDAYS,django.db.migrations,django.contrib.admin,django.utils.translation.gettext_lazy,django.contrib.syndication.views.Feed,django.template.defaultfilters.slugify,django.views.generic.detail.DetailView,django.db.models.Q,django.apps.AppConfig,django.utils.dateformat.format,django.shortcuts.get_object_or_404,django.http.HttpResponseBadRequest,django.utils.http.url_has_allowed_host_and_scheme,django.template.defaultfilters.date,django.urls.reverse,django.http.Http404,django.views.generic.base.TemplateResponseMixin,django.conf.settings,django.http.HttpResponseRedirect,django.views.generic.edit.ProcessFormView,django.forms.widgets.Input,django.views.generic.edit.UpdateView,django.forms,django.views.generic.edit.ModelFormMixin,django.http.HttpResponse,django.utils.http.is_safe_url,django,django.contrib.contenttypes.fields,django.views.generic.edit.DeleteView,django.db.models,django.urls.re_path,django.db.models.F,django.db.models.deletion,django.utils.dates.WEEKDAYS_ABBR,django.template.loader.get_template,django.utils.html.escape,django.views.generic.edit.CreateView,django.db.models.query.prefetch_related_objects"
+        }
+      ]
+    },
+    {
+      "author": "Plone Foundation <plone-developers@lists.sourceforge.net>",
+      "group": "",
+      "name": "icalendar",
+      "version": "5.0.11",
+      "description": "iCalendar parser/generator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "81864971ac43a1b7d0a555dc1b667836ce59fc719a7f845a96f2f03205fb83b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/icalendar@5.0.11",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/collective/icalendar"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/icalendar@5.0.11",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: icalendar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "icalendar"
+        }
+      ]
+    },
+    {
+      "author": "Stuart Bishop <stuart@stuartbishop.net>",
+      "group": "",
+      "name": "pytz",
+      "version": "2023.3.post1",
+      "description": "World timezone definitions, modern and historical",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ce42d816b81b68506614c11e8937d3aa9e41007ceb50bfdcb0749b921bf646c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pytz@2023.3.post1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://pythonhosted.org/pytz"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytz@2023.3.post1",
+      "evidence": {
+        "identity": {
+          "field": "version",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "source-code-analysis",
+              "confidence": 0.5,
+              "value": "PyPI package: pytz"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "ImportedModules",
+          "value": "pytz"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "typing-extensions",
+      "version": "4.9.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/typing-extensions@4.9.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-UEy4m6"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "django-scheduler",
+      "version": "0.10.1",
+      "scope": "optional",
+      "purl": "pkg:pypi/django-scheduler@0.10.1",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django-scheduler@0.10.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-UEy4m6"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "Django",
+      "version": "4.2.9",
+      "scope": "optional",
+      "purl": "pkg:pypi/django@4.2.9",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django@4.2.9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "asgiref",
+      "version": "3.7.2",
+      "scope": "optional",
+      "purl": "pkg:pypi/asgiref@3.7.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/asgiref@3.7.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sqlparse",
+      "version": "0.4.4",
+      "scope": "optional",
+      "purl": "pkg:pypi/sqlparse@0.4.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlparse@0.4.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "six",
+      "version": "1.16.0",
+      "scope": "optional",
+      "purl": "pkg:pypi/six@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/setup.py"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/setup.py"
+        }
+      ]
+    },
+    {
+      "group": "actions",
+      "name": "checkout",
+      "version": "v2",
+      "purl": "pkg:github/actions/checkout@v2",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v2"
+    },
+    {
+      "group": "actions",
+      "name": "setup-python",
+      "version": "v2",
+      "purl": "pkg:github/actions/setup-python@v2",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/setup-python@v2"
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.8.2",
+        "pkg:pypi/django@5.0.1",
+        "pkg:pypi/icalendar@5.0.11",
+        "pkg:pypi/pytz@2023.3.post1",
+        "pkg:pypi/typing-extensions@4.9.0",
+        "pkg:pypi/django-scheduler@0.10.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.8.2",
+      "dependsOn": [
+        "pkg:pypi/six@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django@5.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/icalendar@5.0.11",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.8.2",
+        "pkg:pypi/pytz@2023.3.post1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytz@2023.3.post1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@4.2.9",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.7.2",
+        "pkg:pypi/sqlparse@0.4.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/asgiref@3.7.2",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sqlparse@0.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django-scheduler@0.10.1",
+      "dependsOn": [
+        "pkg:pypi/django@4.2.9",
+        "pkg:pypi/icalendar@5.0.11",
+        "pkg:pypi/python-dateutil@2.8.2",
+        "pkg:pypi/pytz@2023.3.post1"
+      ]
+    }
+  ]
+}

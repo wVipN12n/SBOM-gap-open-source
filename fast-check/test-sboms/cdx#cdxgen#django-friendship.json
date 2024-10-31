@@ -1,0 +1,2016 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f7ccfcd0-23b0-4812-968a-da52585205e6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-11T09:48:36.664Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.10.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.10.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.10.2",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "typing-extensions",
+      "version": "4.9.0",
+      "purl": "pkg:pypi/typing-extensions@4.9.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "twine",
+      "version": "4.0.2",
+      "purl": "pkg:pypi/twine@4.0.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/twine@4.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "readme-renderer",
+      "version": "42.0",
+      "purl": "pkg:pypi/readme-renderer@42.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/readme-renderer@42.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "nh3",
+      "version": "0.2.15",
+      "purl": "pkg:pypi/nh3@0.2.15",
+      "type": "library",
+      "bom-ref": "pkg:pypi/nh3@0.2.15",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "docutils",
+      "version": "0.20.1",
+      "purl": "pkg:pypi/docutils@0.20.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/docutils@0.20.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pygments",
+      "version": "2.17.2",
+      "purl": "pkg:pypi/pygments@2.17.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pygments@2.17.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "importlib-metadata",
+      "version": "7.0.1",
+      "purl": "pkg:pypi/importlib-metadata@7.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/importlib-metadata@7.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "zipp",
+      "version": "3.17.0",
+      "purl": "pkg:pypi/zipp@3.17.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/zipp@3.17.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pkginfo",
+      "version": "1.9.6",
+      "purl": "pkg:pypi/pkginfo@1.9.6",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pkginfo@1.9.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "rich",
+      "version": "13.7.0",
+      "purl": "pkg:pypi/rich@13.7.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/rich@13.7.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "markdown-it-py",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/markdown-it-py@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/markdown-it-py@3.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/mdurl@0.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "keyring",
+      "version": "24.3.0",
+      "purl": "pkg:pypi/keyring@24.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/keyring@24.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "jeepney",
+      "version": "0.8.0",
+      "purl": "pkg:pypi/jeepney@0.8.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jeepney@0.8.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "jaraco.classes",
+      "version": "3.3.0",
+      "purl": "pkg:pypi/jaraco.classes@3.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/jaraco.classes@3.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "more-itertools",
+      "version": "10.2.0",
+      "purl": "pkg:pypi/more-itertools@10.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/more-itertools@10.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "SecretStorage",
+      "version": "3.3.3",
+      "purl": "pkg:pypi/secretstorage@3.3.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/secretstorage@3.3.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cryptography",
+      "version": "41.0.7",
+      "purl": "pkg:pypi/cryptography@41.0.7",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cryptography@41.0.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cffi",
+      "version": "1.16.0",
+      "purl": "pkg:pypi/cffi@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cffi@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pycparser",
+      "version": "2.21",
+      "purl": "pkg:pypi/pycparser@2.21",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycparser@2.21",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "requests-toolbelt",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/requests-toolbelt@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests-toolbelt@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "requests",
+      "version": "2.31.0",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "certifi",
+      "version": "2023.11.17",
+      "purl": "pkg:pypi/certifi@2023.11.17",
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2023.11.17",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "idna",
+      "version": "3.6",
+      "purl": "pkg:pypi/idna@3.6",
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "urllib3",
+      "version": "2.1.0",
+      "purl": "pkg:pypi/urllib3@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@2.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "charset-normalizer",
+      "version": "3.3.2",
+      "purl": "pkg:pypi/charset-normalizer@3.3.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "rfc3986",
+      "version": "2.0.0",
+      "purl": "pkg:pypi/rfc3986@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/rfc3986@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pytest-pythonpath",
+      "version": "0.7.3",
+      "purl": "pkg:pypi/pytest-pythonpath@0.7.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-pythonpath@0.7.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "pytest",
+      "version": "7.4.4",
+      "purl": "pkg:pypi/pytest@7.4.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest@7.4.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "exceptiongroup",
+      "version": "1.2.0",
+      "purl": "pkg:pypi/exceptiongroup@1.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/exceptiongroup@1.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "tomli",
+      "version": "2.0.1",
+      "purl": "pkg:pypi/tomli@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tomli@2.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "packaging",
+      "version": "23.2",
+      "purl": "pkg:pypi/packaging@23.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@23.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "iniconfig",
+      "version": "2.0.0",
+      "purl": "pkg:pypi/iniconfig@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/iniconfig@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pluggy",
+      "version": "1.3.0",
+      "purl": "pkg:pypi/pluggy@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pluggy@1.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pytest-django",
+      "version": "4.7.0",
+      "purl": "pkg:pypi/pytest-django@4.7.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-django@4.7.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "pytest-cov",
+      "version": "4.1.0",
+      "purl": "pkg:pypi/pytest-cov@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytest-cov@4.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "coverage",
+      "version": "7.4.0",
+      "purl": "pkg:pypi/coverage@7.4.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/coverage@7.4.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pyproject-hooks",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/pyproject-hooks@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyproject-hooks@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "nox",
+      "version": "2023.4.22",
+      "purl": "pkg:pypi/nox@2023.4.22",
+      "type": "library",
+      "bom-ref": "pkg:pypi/nox@2023.4.22",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "virtualenv",
+      "version": "20.25.0",
+      "purl": "pkg:pypi/virtualenv@20.25.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/virtualenv@20.25.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "distlib",
+      "version": "0.3.8",
+      "purl": "pkg:pypi/distlib@0.3.8",
+      "type": "library",
+      "bom-ref": "pkg:pypi/distlib@0.3.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "filelock",
+      "version": "3.13.1",
+      "purl": "pkg:pypi/filelock@3.13.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/filelock@3.13.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "platformdirs",
+      "version": "4.1.0",
+      "purl": "pkg:pypi/platformdirs@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/platformdirs@4.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "colorlog",
+      "version": "6.8.0",
+      "purl": "pkg:pypi/colorlog@6.8.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/colorlog@6.8.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "argcomplete",
+      "version": "3.2.1",
+      "purl": "pkg:pypi/argcomplete@3.2.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/argcomplete@3.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "flake8",
+      "version": "7.0.0",
+      "purl": "pkg:pypi/flake8@7.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/flake8@7.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "pycodestyle",
+      "version": "2.11.1",
+      "purl": "pkg:pypi/pycodestyle@2.11.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycodestyle@2.11.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mccabe",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/mccabe@0.7.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/mccabe@0.7.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pyflakes",
+      "version": "3.2.0",
+      "purl": "pkg:pypi/pyflakes@3.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyflakes@3.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "factory-boy",
+      "version": "3.3.0",
+      "purl": "pkg:pypi/factory-boy@3.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/factory-boy@3.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "Faker",
+      "version": "22.2.0",
+      "purl": "pkg:pypi/faker@22.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/faker@22.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "purl": "pkg:pypi/python-dateutil@2.8.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dateutil@2.8.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "six",
+      "version": "1.16.0",
+      "purl": "pkg:pypi/six@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "django",
+      "version": "4.2.9",
+      "purl": "pkg:pypi/django@4.2.9",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django@4.2.9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "ImportedModules",
+          "value": "django.utils.timezone,django.core.exceptions.ValidationError,django.template,django.shortcuts.render,django.contrib.auth.models.User,django.db.models,django.urls.path,django.core.management.execute_from_command_line,django.conf.urls.include,django.contrib.admin,django.utils.translation.gettext_lazy,django.db.IntegrityError,django.db.models.Q,django.contrib.auth.get_user_model,django.apps.AppConfig,django.core.cache.cache,django.shortcuts.get_object_or_404,django.conf.settings,django.core.wsgi.get_wsgi_application,django.shortcuts.redirect,django.db.migrations,django.dispatch.Signal,django.contrib.auth.decorators.login_required,django.db.models.deletion"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "asgiref",
+      "version": "3.7.2",
+      "purl": "pkg:pypi/asgiref@3.7.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/asgiref@3.7.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sqlparse",
+      "version": "0.4.4",
+      "purl": "pkg:pypi/sqlparse@0.4.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlparse@0.4.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "check-manifest",
+      "version": "0.49",
+      "purl": "pkg:pypi/check-manifest@0.49",
+      "type": "library",
+      "bom-ref": "pkg:pypi/check-manifest@0.49",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "setuptools",
+      "version": "53.0.0",
+      "purl": "pkg:pypi/setuptools@53.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/setuptools@53.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "build",
+      "version": "1.0.3",
+      "purl": "pkg:pypi/build@1.0.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/build@1.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "bumpversion",
+      "version": "0.6.0",
+      "purl": "pkg:pypi/bumpversion@0.6.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/bumpversion@0.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "",
+      "name": "bump2version",
+      "version": "1.0.1",
+      "purl": "pkg:pypi/bump2version@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/bump2version@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.8,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 0.8,
+              "value": "/app/requirements.txt"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/app/requirements.txt"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "django-friendship",
+      "version": "1.9.6",
+      "purl": "pkg:pypi/django-friendship@1.9.6",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django-friendship@1.9.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "instrumentation",
+              "confidence": 1,
+              "value": "/tmp/cdxgen-venv-4faCOM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "group": "actions",
+      "name": "checkout",
+      "version": "v4",
+      "purl": "pkg:github/actions/checkout@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "group": "actions",
+      "name": "setup-python",
+      "version": "v4",
+      "purl": "pkg:github/actions/setup-python@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/setup-python@v4"
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.9.0",
+        "pkg:pypi/twine@4.0.2",
+        "pkg:pypi/pytest-pythonpath@0.7.3",
+        "pkg:pypi/pytest-django@4.7.0",
+        "pkg:pypi/pytest-cov@4.1.0",
+        "pkg:pypi/pyproject-hooks@1.0.0",
+        "pkg:pypi/pygments@2.17.2",
+        "pkg:pypi/nox@2023.4.22",
+        "pkg:pypi/flake8@7.0.0",
+        "pkg:pypi/factory-boy@3.3.0",
+        "pkg:pypi/django@4.2.9",
+        "pkg:pypi/django-friendship@1.9.6",
+        "pkg:pypi/check-manifest@0.49",
+        "pkg:pypi/bumpversion@0.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/readme-renderer@42.0",
+      "dependsOn": [
+        "pkg:pypi/docutils@0.20.1",
+        "pkg:pypi/nh3@0.2.15",
+        "pkg:pypi/pygments@2.17.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/nh3@0.2.15",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/docutils@0.20.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.17.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/importlib-metadata@7.0.1",
+      "dependsOn": [
+        "pkg:pypi/zipp@3.17.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/zipp@3.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pkginfo@1.9.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rich@13.7.0",
+      "dependsOn": [
+        "pkg:pypi/markdown-it-py@3.0.0",
+        "pkg:pypi/pygments@2.17.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/markdown-it-py@3.0.0",
+      "dependsOn": [
+        "pkg:pypi/mdurl@0.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/mdurl@0.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/keyring@24.3.0",
+      "dependsOn": [
+        "pkg:pypi/importlib-metadata@7.0.1",
+        "pkg:pypi/jaraco.classes@3.3.0",
+        "pkg:pypi/jeepney@0.8.0",
+        "pkg:pypi/secretstorage@3.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jeepney@0.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jaraco.classes@3.3.0",
+      "dependsOn": [
+        "pkg:pypi/more-itertools@10.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/more-itertools@10.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/secretstorage@3.3.3",
+      "dependsOn": [
+        "pkg:pypi/cryptography@41.0.7",
+        "pkg:pypi/jeepney@0.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cryptography@41.0.7",
+      "dependsOn": [
+        "pkg:pypi/cffi@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cffi@1.16.0",
+      "dependsOn": [
+        "pkg:pypi/pycparser@2.21"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pycparser@2.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests-toolbelt@1.0.0",
+      "dependsOn": [
+        "pkg:pypi/requests@2.31.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/requests@2.31.0",
+      "dependsOn": [
+        "pkg:pypi/certifi@2023.11.17",
+        "pkg:pypi/charset-normalizer@3.3.2",
+        "pkg:pypi/idna@3.6",
+        "pkg:pypi/urllib3@2.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/certifi@2023.11.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/idna@3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rfc3986@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/twine@4.0.2",
+      "dependsOn": [
+        "pkg:pypi/importlib-metadata@7.0.1",
+        "pkg:pypi/keyring@24.3.0",
+        "pkg:pypi/pkginfo@1.9.6",
+        "pkg:pypi/readme-renderer@42.0",
+        "pkg:pypi/requests-toolbelt@1.0.0",
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/rfc3986@2.0.0",
+        "pkg:pypi/rich@13.7.0",
+        "pkg:pypi/urllib3@2.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest@7.4.4",
+      "dependsOn": [
+        "pkg:pypi/exceptiongroup@1.2.0",
+        "pkg:pypi/iniconfig@2.0.0",
+        "pkg:pypi/packaging@23.2",
+        "pkg:pypi/pluggy@1.3.0",
+        "pkg:pypi/tomli@2.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/exceptiongroup@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tomli@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/packaging@23.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/iniconfig@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pluggy@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-pythonpath@0.7.3",
+      "dependsOn": [
+        "pkg:pypi/pytest@7.4.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pytest-django@4.7.0",
+      "dependsOn": [
+        "pkg:pypi/pytest@7.4.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/coverage@7.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytest-cov@4.1.0",
+      "dependsOn": [
+        "pkg:pypi/coverage@7.4.0",
+        "pkg:pypi/pytest@7.4.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyproject-hooks@1.0.0",
+      "dependsOn": [
+        "pkg:pypi/tomli@2.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/virtualenv@20.25.0",
+      "dependsOn": [
+        "pkg:pypi/distlib@0.3.8",
+        "pkg:pypi/filelock@3.13.1",
+        "pkg:pypi/platformdirs@4.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/distlib@0.3.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/filelock@3.13.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/platformdirs@4.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/colorlog@6.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/argcomplete@3.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/nox@2023.4.22",
+      "dependsOn": [
+        "pkg:pypi/argcomplete@3.2.1",
+        "pkg:pypi/colorlog@6.8.0",
+        "pkg:pypi/packaging@23.2",
+        "pkg:pypi/virtualenv@20.25.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pycodestyle@2.11.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mccabe@0.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyflakes@3.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flake8@7.0.0",
+      "dependsOn": [
+        "pkg:pypi/mccabe@0.7.0",
+        "pkg:pypi/pycodestyle@2.11.1",
+        "pkg:pypi/pyflakes@3.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/faker@22.2.0",
+      "dependsOn": [
+        "pkg:pypi/python-dateutil@2.8.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.8.2",
+      "dependsOn": [
+        "pkg:pypi/six@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/six@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/factory-boy@3.3.0",
+      "dependsOn": [
+        "pkg:pypi/faker@22.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/asgiref@3.7.2",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sqlparse@0.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@4.2.9",
+      "dependsOn": [
+        "pkg:pypi/asgiref@3.7.2",
+        "pkg:pypi/sqlparse@0.4.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/setuptools@53.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/build@1.0.3",
+      "dependsOn": [
+        "pkg:pypi/packaging@23.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/check-manifest@0.49",
+      "dependsOn": [
+        "pkg:pypi/build@1.0.3",
+        "pkg:pypi/setuptools@53.0.0",
+        "pkg:pypi/tomli@2.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/bump2version@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/bumpversion@0.6.0",
+      "dependsOn": [
+        "pkg:pypi/bump2version@1.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/django-friendship@1.9.6",
+      "dependsOn": []
+    }
+  ]
+}

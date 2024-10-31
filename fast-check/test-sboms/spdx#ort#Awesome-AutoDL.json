@@ -1,0 +1,190 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.2",
+    "creationInfo": {
+        "created": "2024-03-12T11:42:48Z",
+        "creators": [
+            "Tool: ort-17.1.1-021.sha.4590097"
+        ],
+        "licenseListVersion": "3.22"
+    },
+    "name": "Unnamed document",
+    "dataLicense": "CC0-1.0",
+    "documentNamespace": "spdx://19a27769-c385-4c84-adbe-22e815876b7a",
+    "documentDescribes": [
+        "SPDXRef-Project-PIP-awesome-autodl"
+    ],
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Project-PIP-awesome-autodl",
+            "copyrightText": "Copyright (c) 2018 Xuanyi Dong GitHub",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/D-X-Y/Awesome-AutoDL",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "MIT",
+            "name": "awesome_autodl",
+            "summary": "NONE"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-PyPI-pyyaml-6.0.1",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d2b04aac4d386b172d5b9692e2d2da8de7bfb6c387fa4f801fbf6fb2e6ba4673"
+                }
+            ],
+            "copyrightText": "Copyright (c) 2006-2016 Kirill Simonov\nCopyright (c) 2006-2016 Kirill Simonov <xi@resolvent.net>\nCopyright (c) 2017-2021 Ingy",
+            "downloadLocation": "https://files.pythonhosted.org/packages/7b/5e/efd033ab7199a0b2044dab3b9f7a4f6670e6a52c089de572e928d2873b06/PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/pyyaml@6.0.1"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pyyaml.org/",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "MIT",
+            "name": "pyyaml",
+            "summary": "YAML parser and emitter for Python",
+            "versionInfo": "6.0.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-PyPI-pyyaml-6.0.1-vcs",
+            "copyrightText": "Copyright (c) 2006-2016 Kirill Simonov\nCopyright (c) 2006-2016 Kirill Simonov <xi@resolvent.net>\nCopyright (c) 2017-2021 Ingy",
+            "downloadLocation": "git+https://github.com/yaml/pyyaml.git@c42fa3bff1eabdb64763bb1526d9ea1ccb708479",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/pyyaml@6.0.1"
+                }
+            ],
+            "filesAnalyzed": true,
+            "hasFiles": [
+                "SPDXRef-File-1",
+                "SPDXRef-File-2",
+                "SPDXRef-File-3",
+                "SPDXRef-File-4"
+            ],
+            "homepage": "https://pyyaml.org/",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "MIT",
+            "licenseInfoFromFiles": [
+                "MIT"
+            ],
+            "name": "pyyaml",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "0cca85f047fbacb8691ed5d146de467506c33eb9"
+            },
+            "summary": "YAML parser and emitter for Python",
+            "versionInfo": "6.0.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-PyPI-pyyaml-6.0.1-source-artifact",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43"
+                }
+            ],
+            "copyrightText": "Copyright (c) 2006-2016 Kirill Simonov\nCopyright (c) 2006-2016 Kirill Simonov <xi@resolvent.net>\nCopyright (c) 2017-2021 Ingy",
+            "downloadLocation": "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/pyyaml@6.0.1"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pyyaml.org/",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "MIT",
+            "name": "pyyaml",
+            "summary": "YAML parser and emitter for Python",
+            "versionInfo": "6.0.1"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-1",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3b8919c7f020e71fc3e97cfd724f9463bbac1177"
+                }
+            ],
+            "copyrightText": "Copyright (c) 2006-2016 Kirill Simonov\nCopyright (c) 2017-2021 Ingy",
+            "fileName": "LICENSE",
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "MIT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-2",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6342bc97864231467a3856c10318af66a42bd218"
+                }
+            ],
+            "copyrightText": "NONE",
+            "fileName": "README.md",
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "MIT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-3",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1b79aa08de6e5662be009ed2ce4d148ff41732ad"
+                }
+            ],
+            "copyrightText": "Copyright (c) 2006-2016 Kirill Simonov <xi@resolvent.net>\nCopyright (c) 2017-2021 Ingy",
+            "fileName": "announcement.msg",
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "MIT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-4",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0e8fd44fdc864811b02e410af5228070ce155cfa"
+                }
+            ],
+            "copyrightText": "NONE",
+            "fileName": "setup.py",
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "MIT"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Package-PyPI-pyyaml-6.0.1",
+            "relationshipType": "GENERATED_FROM",
+            "relatedSpdxElement": "SPDXRef-Package-PyPI-pyyaml-6.0.1-source-artifact"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-PyPI-pyyaml-6.0.1",
+            "relationshipType": "GENERATED_FROM",
+            "relatedSpdxElement": "SPDXRef-Package-PyPI-pyyaml-6.0.1-vcs"
+        },
+        {
+            "spdxElementId": "SPDXRef-Project-PIP-awesome-autodl",
+            "relationshipType": "DEPENDS_ON",
+            "relatedSpdxElement": "SPDXRef-Package-PyPI-pyyaml-6.0.1"
+        }
+    ]
+}
