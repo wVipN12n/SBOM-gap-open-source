@@ -1,4 +1,4 @@
-This is a anonymous open source repository for paper "Bridging the Gap: A Large-Scale Analysis of SBOM Tools’ Alignment with Standards"
+This is a anonymous open source repository for paper "A Large Scale Empirical Study on the Gap between SBOM Standards and SBOM Tools"
 
 ## Introduction
 Software bill of materials (SBOM) tools are key to enhancing transparency and security in software supply chains by documenting critical information about software. Although standards like SPDX and CycloneDX provide well-defined formats and guidelines for creating SBOMs, limited research exists on whether SBOM tools fully adhere to these standards in practice. In this paper, we evaluate the compliance of SBOM tools with these standards across C/C++, Java, and Python repositories by analyzing their generated SBOMs.
