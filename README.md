@@ -1,4 +1,4 @@
-![图片](https://github.com/user-attachments/assets/8170dfe9-f877-47cc-b953-c37878de56df)![QQ_1730462233551](https://github.com/user-attachments/assets/49bbb19c-22eb-4e74-8b4b-b20b5548b630)This is a anonymous open source repository for paper "A Large Scale Empirical Study on the Gap between SBOM Standards and SBOM Tools"
+This is a anonymous open source repository for paper "A Large Scale Empirical Study on the Gap between SBOM Standards and SBOM Tools"
 
 ## Introduction
 Software bill of materials (SBOM) tools are key to enhancing transparency and security in software supply chains by documenting critical information about software. Although standards like SPDX and CycloneDX provide well-defined formats and guidelines for creating SBOMs, limited research exists on whether SBOM tools fully adhere to these standards in practice. In this paper, we evaluate the compliance of SBOM tools with these standards across C/C++, Java, and Python repositories by analyzing their generated SBOMs.
@@ -36,6 +36,8 @@ It contains the following steps:
 
 The results of the `test-run.py` will be in the `results` folder.
 
+
+## More details
 The results in paper are as follows:
 
 ![rq1-compliance](https://github.com/user-attachments/assets/3ed742ef-a497-4d91-810a-8b70cc0a4a46)
