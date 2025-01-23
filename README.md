@@ -46,8 +46,7 @@ The results of the `test-run.py` will be in the `results` folder.
 
 ## More details
 The results in paper are as follows:
-
-![rq1-compliance](https://github.com/user-attachments/assets/3ed742ef-a497-4d91-810a-8b70cc0a4a46)
+![q1-compliance](https://github.com/user-attachments/assets/9da4ae64-20d6-4d8d-9732-aa5ab0139314)
 
 Compliance - C/C++
 
