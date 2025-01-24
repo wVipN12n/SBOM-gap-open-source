@@ -25,7 +25,7 @@ Note: if you want to check all the SBOMs, download the zip file and unzip it int
 
 **For fast check,** we provide a small dataset in the test-sboms folder for you to test the code. Download the `fast-check.zip`, and unzip it into `fast-check` folder, then following the instruction. The download link is at [[here](https://ufile.io/o4wdv4x5)], cheksums: SHA-1 DF1FCC54E48DB06464A13422E63C7CA20492F7A6.
 
-The code of paper is in the code folder. It is divided into three parts as introduced in the paper: `extract.py`, `match.py` and `evaluate.py`. The code is written in Python, and the required packages are in `code/requirements.txt`. You can install the required packages by running the following command:
+The evaluate and analysis module are divided into three parts: `extract.py`, `match.py` and `evaluate.py`. The code is written in Python, and the required packages are in `code/requirements.txt`. You can install the required packages by running the following command:
 ```bash
 pip install -r requirements.txt
 ```
@@ -39,7 +39,7 @@ It contains the following steps:
 1. Extracts required data fields of the SBOMs and reformat them into JSON files. 
 2. Match the peer-to-peer information in different data fields of SBOMs.
 3. Evaluate the paired information in the matched SBOMs with the evalutaion operation provided by the evaluta module.
-4. Give some basic statistics and output the results in a format of CSV file.
+4. Analyze and output the results in a format of CSV file.
 
 The results of the `test-run.py` will be in the `results` folder.
 
