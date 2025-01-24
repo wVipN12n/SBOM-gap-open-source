@@ -19,7 +19,7 @@ We upload all the 26,194 SBOMs anonymously at [[here](https://ufile.io/pizy0zdp)
 docker pull d32s3a/anonymous-opensource:1.0
 ```
 
-Use `conda env list` to see all the environments of SBOM tools. The `ort` is at `/all-sbom-tools/ort-35.0.0/ort/cli/build/install/ort/bin/ort`(name with 35.0.0 but it is 36.0.0 as described in paper). The other tools can run directly with its name in their corresponding conda envs.
+Use `conda env list` to see all the environments of SBOM tools. The `ort` is at `/all-sbom-tools/ort-35.0.0/ort/cli/build/install/ort/bin/ort`(name with 35.0.0 but it is 36.0.0 as described in paper). The other tools can run directly with its name in their corresponding conda envs. All the scripts in SAP for SBOM generation locate at `run-sbom-tools` folder. These scripts need to run in the docker except `cdxgen` that need to interact with docker thus runs on host.
 
 Note: if you want to check all the SBOMs, download the zip file and unzip it into folder, put it together with code of this repo, mount the top folder into `/mnt` of the docker container.
 
