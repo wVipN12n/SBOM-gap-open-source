@@ -7,7 +7,8 @@ Software bill of materials (SBOM) is a structured document that stores software 
 This paper analyzes the adherence gap between standards and tools in SBOM. To make the analysis, we design and implement SAP, a framework for evaluating SBOM tools against SBOM standards in real-world. Utilizing SAP, we conduct comprehensive evaluations on 3,287 real-world repositories. The results show that SBOM tools achieve 100\% adherence with mandatory data fields defined by SBOM standards, enabling basic interoperability. But three major gaps are found in compliance, consistency and accuracy of SBOM tools against standards.
 We explore root causes contributing to these gaps and offer a discussion on potential solutions to help improve both SBOM standards and tools.
 
-![Overview of the study](image.png)
+![Overview of the study](https://github.com/user-attachments/assets/9195691e-f3d8-4c5e-b502-0e1b39bc74d9)
+
 
 ## Usage
 
@@ -23,35 +24,31 @@ docker pull d32s3a/anonymous-opensource:1.0
 Use `conda env list` to see all the environments of SBOM tools. The `ort` is at `/all-sbom-tools/ort-35.0.0/ort/cli/build/install/ort/bin/ort`(name with 35.0.0 but it is 36.0.0 as described in paper). The other tools can run directly with its name in their corresponding conda envs. 
 All the scripts in SAP for SBOM generation locate at `run-sbom-tools` folder. These scripts need to run in the docker except `cdxgen` that need to interact with docker thus runs on host.
 
-Note: if you want to check all the SBOMs, download the zip file and unzip it into folder, put it together with code of this repo, mount the top folder into `/mnt` of the docker container.
+## Run the code
 
-## For fast check
+### For fast check on test SBOMs
 
-We provide a small dataset in the test-sboms folder for you to test the code. Download the `fast-check.zip` at 10.5281/zenodo.14998625, and unzip it into `fast-check` folder, then follow the instruction.
+We provide a small dataset in the test-sboms folder for you to test the code. Download the `run-on-test-sboms.zip` at 10.5281/zenodo.14998625, and unzip it, then follow the instruction.
 
-The evaluate and analysis module are divided into three parts: `extract.py`, `match.py` and `evaluate.py`. The code is written in Python, and the required packages are in `code/requirements.txt`. You can install the required packages by running the following command:
+We provide a all-in-one script to run the code for evaluating the adherence gap of SBOM tools and SBOM standards. You can run the following command to run the code on the test-sboms dataset:
+
 ```bash
 pip install -r requirements.txt
-```
-
-We provide a all-in-one script to run the code for assessing the consistency of SBOM tools in the transfrom application, you can run the following command to run the code:
-
-```bash
 python test-run.py
 ```
 
-It contains the following steps:
-1. Extracts required data fields of the SBOMs and reformat them into JSON files. 
-2. Match the peer-to-peer information in different data fields of SBOMs.
-3. Evaluate the paired information in the matched SBOMs with the evalutaion operation provided by the evaluta module.
-4. Analyze and output the results in a format of CSV file.
+As the test sboms are just 42 randomly selected repositories from Python part of the $D_{repo}$, the results are different from our paper but still can check our code. If you want to run the code on all the SBOMs, see next part.
 
-The results of the `test-run.py` will be in the `results` folder.
+### Run on all SBOMs
+If you want to rerun the whole process of SAP on all SBOMs, download and unzip the all-sboms.zip(around 50GB after unzip) at 10.5281/zenodo.14998625, and change the `dir` in test-run.py and rerun again(possible clean up of the result dir is needed).
+
+The results of the `test-run.py` will be in the `test-sbom-results` folder.
 
 
 ## More details
 The results in paper are as follows:
-![q1-compliance](https://github.com/user-attachments/assets/9da4ae64-20d6-4d8d-9732-aa5ab0139314)
+
+![q1-compliance](https://github.com/user-attachments/assets/8dd3f55c-dcbb-4acf-8da9-4cd0f7e20bdb)
 
 Compliance - C/C++
 
