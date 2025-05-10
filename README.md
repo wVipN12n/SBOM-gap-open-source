@@ -52,7 +52,7 @@ The results in paper are as follows:
 
 Compliance - C/C++
 
-| tool      | name   | author | purl   | license | version | copyrightText | dependency relationship |
+| tool      | name   | supplier | purl   | license | version | copyrightText | dependency relationship |
 | --------- | ------ | ------ | ------ | ------- | ------- | ------------- | ----------------------- |
 | syft      | 100.0% | 7.6%   | 59.8%  | 1.0%    | 59.8%   | 0.0%          | 100.0%                  |
 | gh-sbom   | 100.0% | 0.0%   | 100.0% | 61.2%   | 100.0%  | 16.0%         | 100.0%                  |
@@ -65,7 +65,7 @@ Compliance - C/C++
 
 Compliance - Java
 
-| tool      | name   | author | purl   | license | version | copyrightText | dependency relationship |
+| tool      | name   | supplier | purl   | license | version | copyrightText | dependency relationship |
 | --------- | ------ | ------ | ------ | ------- | ------- | ------------- | ----------------------- |
 | syft      | 100.0% | 9.1%   | 93.2%  | 3.1%    | 93.2%   | 0.0%          | 100.0%                  |
 | gh-sbom   | 100.0% | 0.0%   | 100.0% | 64.9%   | 100.0%  | 28.3%         | 100.0%                  |
@@ -78,7 +78,7 @@ Compliance - Java
 
 Compliance - Python
 
-| tool      | name   | author | purl   | license | version | copyrightText | dependency relationship |
+| tool      | name   | supplier | purl   | license | version | copyrightText | dependency relationship |
 | --------- | ------ | ------ | ------ | ------- | ------- | ------------- | ----------------------- |
 | syft      | 100.0% | 3.6%   | 50.6%  | 1.0%    | 50.6%   | 0.0%          | 100.0%                  |
 | gh-sbom   | 100.0% | 0.0%   | 100.0% | 70.7%   | 100.0%  | 0.0%          | 100.0%                  |
